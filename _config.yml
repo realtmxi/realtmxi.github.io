@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : # "Beijing"
-  # employer         : "Microsoft Research Asia"
+  employer         : # "Microsoft Research Asia"
   uri              : # URL
   email            : "murphy.tian@mail.utoronto.ca" 
 
