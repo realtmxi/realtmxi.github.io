@@ -11,54 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in University of Toronto, 2026 (expected)
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Winter 2025: Microsoft Research Asia
+  * Research Intern
+  <!-- * Supervised by [Zhongxin Guo](https://www.linkedin.com/in/zhongxin-guo-79448b8a/) -->
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2024: Microsoft
+  * Software Engineer Intern
+  <!-- * Supervised by [Storm Yin](https://www.linkedin.com/in/xiaoyuin/) -->
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2024: RedNote
+  * Software Engineer Intern
+  <!-- * Supervised by [Zhe Wang](https://www.linkedin.com/in/zhe-wang-bb6a36184/) -->
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Open-Source Experience
+=====
+* Gsoc 2025: ChromiumOS
+  * Enhance the farfetchd service in ChromiumOS by adding support for tracing and replaying disk I/O during application startup.
+  <!-- * Supervised by [Sarthak Kukreti](https://www.linkedin.com/in/sarthakkukreti/) -->
