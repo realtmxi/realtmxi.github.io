@@ -30,5 +30,5 @@ Work Experience
 Open-Source Experience
 =====
 * Gsoc 2025: ChromiumOS
-  * Enhance the farfetchd service in ChromiumOS by adding support for tracing and replaying disk I/O during application startup.
-  <!-- * Supervised by [Sarthak Kukreti](https://www.linkedin.com/in/sarthakkukreti/) -->
+  * [Farfetchd: tracing/replay] (https://summerofcode.withgoogle.com/programs/2025/projects/w9IS12mr)
+  * Supervised by [Sarthak Kukreti](https://www.linkedin.com/in/sarthakkukreti/)
