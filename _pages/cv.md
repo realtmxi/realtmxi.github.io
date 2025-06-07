@@ -30,5 +30,5 @@ Work Experience
 Open-Source Experience
 =====
 * Gsoc 2025: ChromiumOS
-  * [Farfetchd: tracing/replay] (https://summerofcode.withgoogle.com/programs/2025/projects/w9IS12mr)
+  * [Farfetchd: tracing/replay](https://summerofcode.withgoogle.com/programs/2025/projects/w9IS12mr)
   * Supervised by [Sarthak Kukreti](https://www.linkedin.com/in/sarthakkukreti/)
