@@ -21,11 +21,17 @@ author_profile: true
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transform: translateY(-2px);
   }
+  .project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+    gap: 12px;
+  }
   .project-title {
     font-size: 1.4em;
     font-weight: bold;
     color: #2c3e50;
-    margin-bottom: 0.5em;
+    margin: 0;
   }
   .project-description {
     color: #555;
@@ -50,13 +56,35 @@ author_profile: true
     color: white;
     text-decoration: none;
   }
+  .github-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    color: #24292e;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .github-stars::before {
+    content: url('data:image/svg+xml,%3Csvg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="14" height="14"%3E%3Cpath d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 13.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.192L.644 6.374a.75.75 0 0 1 .416-1.28l4.21-.61L7.127.668A.75.75 0 0 1 8 .25Z"%3E%3C/path%3E%3C/svg%3E');
+    color: #f1c40f; /* Gold color for the star */
+    position: relative;
+    top: 1px;
+  }
 </style>
 
 
 <div class="project-entry">
-  <div class="project-title">OpenManus-RL</div>
+  <div class="project-header">
+    <div class="project-title">OpenManus-RL</div>
+    <div class="github-stars">3k stars</div>
+  </div>
   <div class="project-description">
-    An open-source initiative collaboratively led by Ulab-UIUC and MetaGPT, extending the original <a href="https://github.com/FoundationAgents/OpenManus">@OpenManus</a> project. . Inspired by successful RL tunning for reasoning LLM such as Deepseek-R1, we explore new paradigms for RL-based LLM agent tuning, particularly building upon foundations.
+    An open-source initiative collaboratively led by Ulab-UIUC and MetaGPT, extending the original <a href="https://github.com/FoundationAgents/OpenManus">@OpenManus</a> project. Inspired by successful RL tuning for reasoning LLM such as DeepSeek-R1, we explore new paradigms for RL-based LLM agent tuning, particularly building upon foundations.
   </div>
   <div class="project-links">
     <a href="https://github.com/OpenManus/OpenManus-RL" class="project-btn">View on GitHub</a>
@@ -64,7 +92,10 @@ author_profile: true
 </div>
 
 <div class="project-entry">
-  <div class="project-title">ChromiumOS</div>
+  <div class="project-header">
+    <div class="project-title">ChromiumOS-farfetchd</div>
+    <div class="github-stars">21k stars</div>
+  </div>
   <div class="project-description">
     Selected as a Google Summer of Code 2025 contributor, this project enhances ChromiumOS's farfetchd service by implementing advanced kernel tracing and replaying capabilities, achieving significant reductions in application cold start latency.
   </div>
