@@ -81,7 +81,7 @@ author_profile: true
 <div class="project-entry">
   <div class="project-header">
     <div class="project-title">OpenManus-RL</div>
-    <div class="github-stars">3k stars</div>
+    <div class="github-stars">3.2k stars</div>
   </div>
   <div class="project-description">
     An open-source initiative collaboratively led by Ulab-UIUC and MetaGPT, extending the original <a href="https://github.com/FoundationAgents/OpenManus">@OpenManus</a> project. Inspired by successful RL tuning for reasoning LLM such as DeepSeek-R1, we explore new paradigms for RL-based LLM agent tuning, particularly building upon foundations.
