@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research Experience"
+title: "Experience"
 permalink: /research/
 author_profile: true
 ---
@@ -284,6 +284,8 @@ author_profile: true
   })();
 </script>
 
+<h2 style="margin-bottom: 1.5em; color: #1a202c; font-size: 1.8em; font-weight: 700; border-bottom: 3px solid #4a90e2; padding-bottom: 0.5em;">Research Experience</h2>
+
 <div class="research-container">
 
 <div class="research-entry">
@@ -392,6 +394,78 @@ author_profile: true
       </div>
       <div class="advisor-info">
         <strong>Supervisors:</strong> Prof. <a href="https://shekharravi.github.io/">Ravi Shekhar</a> and Prof. <a href="https://www.cs.toronto.edu/~ealee/public/">Annie Lee</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<h2 style="margin-top: 3em; margin-bottom: 1.5em; color: #1a202c; font-size: 1.8em; font-weight: 700; border-bottom: 3px solid #4a90e2; padding-bottom: 0.5em;">Industry Experience</h2>
+
+<div class="research-container">
+
+<div class="research-entry">
+  <div class="research-logo">
+    <img src="/images/logos/Chromium_Logo.svg" alt="Google" loading="lazy" decoding="async">
+  </div>
+  <div class="research-body">
+    <div class="research-header">
+      <div class="research-title">Google</div>
+      <div class="research-role">GSoC Open Source Developer</div>
+      <div class="research-meta">May 2025 – Sep 2025</div>
+      <div class="research-location">Remote</div>
+    </div>
+    <div class="research-content">
+      <div class="research-description">
+        Selected as a Google Summer of Code 2025 contributor to enhance ChromiumOS's farfetchd service with kernel tracing and replay capabilities.
+      </div>
+      <div class="advisor-info">
+        <strong>Mentors:</strong> <a href="https://www.linkedin.com/in/sarthakkukreti/">Sarthak Kukreti</a> and Alexis Savery
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="research-entry">
+  <div class="research-logo">
+    <img src="/images/logos/Microsoft.svg" alt="Microsoft" loading="lazy" decoding="async">
+  </div>
+  <div class="research-body">
+    <div class="research-header">
+      <div class="research-title">Microsoft</div>
+      <div class="research-role">Software Engineer Intern</div>
+      <div class="research-meta">Oct 2024 – Dec 2025</div>
+      <div class="research-location">Suzhou, China</div>
+    </div>
+    <div class="research-content">
+      <div class="research-description">
+        Designed and implemented an internal front-end component library for Microsoft Edge team.
+      </div>
+      <div class="advisor-info">
+        <strong>Mentor:</strong> <a href="https://www.linkedin.com/in/xiaoyuin/">Storm Yin</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="research-entry">
+  <div class="research-logo">
+    <img src="/images/logos/rednote-xiaohongshu.png" alt="RedNote" loading="lazy" decoding="async">
+  </div>
+  <div class="research-body">
+    <div class="research-header">
+      <div class="research-title">RedNote</div>
+      <div class="research-role">Mobile Software Engineer, iOS Platform Intern</div>
+      <div class="research-meta">Jul 2024 – Oct 2024</div>
+      <div class="research-location">Shanghai, China</div>
+    </div>
+    <div class="research-content">
+      <div class="research-description">
+        Led the group's first on-device learning project.
+      </div>
+      <div class="advisor-info">
+        <strong>Mentor:</strong> <a href="https://www.linkedin.com/in/zhe-wang-bb6a36184/">Zhe Wang</a>
       </div>
     </div>
   </div>
