@@ -288,7 +288,7 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/harvard.png" alt="Harvard University">
+    <img src="/images/logos/harvard.png" alt="Harvard University" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
     <div class="research-header">
@@ -310,7 +310,7 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/uiuc-logo.png" alt="UIUC">
+    <img src="/images/logos/uiuc-logo.png" alt="UIUC" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
     <div class="research-header">
@@ -333,7 +333,7 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/msra.png" alt="Microsoft Research">
+    <img src="/images/logos/msra.png" alt="Microsoft Research" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
     <div class="research-header">
@@ -355,7 +355,7 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/uoft.svg" alt="University of Toronto">
+    <img src="/images/logos/uoft.svg" alt="University of Toronto" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
     <div class="research-header">
@@ -377,7 +377,7 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/uoft.svg" alt="University of Toronto">
+    <img src="/images/logos/uoft.svg" alt="University of Toronto" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
     <div class="research-header">

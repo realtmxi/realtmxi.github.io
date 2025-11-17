@@ -315,7 +315,7 @@ author_profile: true
 
 <div class="project-entry">
   <div class="project-image">
-    <img src="https://github.com/FoundationAgents/OpenManus/blob/main/assets/logo.jpg?raw=true" alt="OpenManus-RL Logo">
+    <img src="{{ site.baseurl }}/images/logos/openmanus-logo.jpg" alt="OpenManus-RL Logo" loading="eager" decoding="async">
   </div>
   <div class="project-content">
     <div class="project-header">
@@ -335,7 +335,7 @@ author_profile: true
 
 <div class="project-entry">
   <div class="project-image">
-    <img src="{{ site.baseurl }}/assets/images/GSoc-icon.svg" alt="GSoC Logo">
+    <img src="{{ site.baseurl }}/assets/images/GSoc-icon.svg" alt="GSoC Logo" loading="eager" decoding="async">
   </div>
   <div class="project-content">
     <div class="project-header">
