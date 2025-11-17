@@ -6,9 +6,27 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I’m Murphy Tian, an undergraduate student at University of Toronto. I'm
-currently a research intern in Microsoft Research Asia. I was a prev Software Engineer in Microsoft. I am fortunate to be working with by Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on Agent-RL and with Prof. [JunCheng Yang](https://junchengyang.com/) at HarvardSys Lab on LLM Serving.
 
-Email: murphy[dot]tian[at]mail[dot]toronto[dot]ca
+<style>
+  .page__content a {
+    text-decoration: none;
+    color: #2d3748;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .page__content a:hover {
+    color: #1a202c;
+    text-decoration: none;
+  }
+</style>
 
-My primary research interests are centered around LLM Agent and ML System (both Sys4ML and ML4Sys). Feel free to reach out me to explore potential research opportunities.
+Hi, I'm Murphy Tian, an undergraduate student at University of Toronto. I'm currently a research intern at Microsoft Research Asia. I am fortunate to collaborate with talented researchers: Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning and Prof. [JunCheng Yang](https://junchengyang.com/) at HarvardSys Lab on LLM serving systems.  I have open-source experience as a member of [OpenManus](https://github.com/FoundationAgents/OpenManus) and a Google Summer of Code contributor to ChromiumOS, along with industry engineering background from working at Microsoft and RedNote. I was previously advised by Dr. [Daniela Rosu](https://www.linkedin.com/in/daniela-rosu-704828/) on interpretable agentic systems.
+
+**Email:** murphy[dot]tian[at]mail[dot]toronto[dot]ca
+
+My research focuses on building more capable intelligence through two complementary directions: 
+(1) **Post-training and agentic systems** — exploring reinforcement learning methods for agent capabilities, frameworks for automatic agentic system generation and optimization, and interpretability and explainability for agentic systems; 
+(2) **Efficient and reliable machine learning systems** — building infrastructure for inference optimization, scheduling, and resource utilization to make large language model systems more accessible and sustainable. 
+
+Feel free to reach out to explore potential research opportunities.
