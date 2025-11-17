@@ -1,36 +1,280 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+  .pub-note {
+    text-align: center;
+    margin: 1.5em 0 2.5em 0;
+    padding: 1em;
+    background: #f0f7ff;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+  }
+  
+  .pub-note a {
+    color: #4a90e2;
+    font-weight: 600;
+  }
+  
+  .pub-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .pub-entry {
+    margin-bottom: 2.5em;
+    padding: 1.8em;
+    background: #ffffff;
+    border-left: 4px solid #4a90e2;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+  
+  .pub-entry:hover {
+    border-left-color: #2563eb;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+  
+  .pub-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.8em;
+    line-height: 1.4;
+  }
+  
+  .pub-authors {
+    font-size: 0.95em;
+    color: #4a5568;
+    margin-bottom: 0.6em;
+    line-height: 1.5;
+  }
+  
+  .pub-authors .me {
+    font-weight: 700;
+    color: #2563eb;
+  }
+  
+  .symbol-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    color: #4a90e2;
+    font-weight: 600;
+    margin-left: 2px;
+  }
+  
+  .symbol-tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 12px;
+    background: #1a202c;
+    color: white;
+    font-size: 0.85em;
+    white-space: nowrap;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 10;
+  }
+  
+  .symbol-tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #1a202c;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    margin-bottom: 2px;
+    z-index: 10;
+  }
+  
+  .symbol-tooltip:hover::after,
+  .symbol-tooltip:hover::before {
+    opacity: 1;
+  }
+  
+  .pub-venue {
+    font-size: 0.9em;
+    color: #718096;
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+  
+  .pub-venue .status {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #fef3c7;
+    color: #92400e;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-left: 0.5em;
+  }
+  
+  .pub-venue .status.submitted {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+  
+  .pub-links {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .pub-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #f3f4f6;
+    color: #374151;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.2s ease;
+  }
+  
+  .pub-link:hover {
+    background: #4a90e2;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+  
+  .pub-link.pdf::before {
+    content: "📄 ";
+  }
+  
+  .pub-link.arxiv::before {
+    content: "📝 ";
+  }
+  
+  .pub-link.code::before {
+    content: "💻 ";
+  }
+  
+  .pub-legend {
+    margin-top: 3em;
+    padding: 1.5em;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .pub-legend p {
+    margin: 0.5em 0;
+    color: #4a5568;
+    font-size: 0.9em;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .pub-entry {
+      background: #1a202c;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    
+    .pub-title {
+      color: #f7fafc;
+    }
+    
+    .pub-authors {
+      color: #cbd5e0;
+    }
+    
+    .pub-venue {
+      color: #a0aec0;
+    }
+    
+    .pub-note {
+      background: #2d3748;
+      border-left-color: #4a90e2;
+    }
+    
+    .symbol-tooltip {
+      color: #60a5fa;
+    }
+    
+    .symbol-tooltip::after {
+      background: #f7fafc;
+      color: #1a202c;
+    }
+    
+    .symbol-tooltip::before {
+      border-top-color: #f7fafc;
+    }
+    
+    .pub-legend {
+      background: #2d3748;
+    }
+    
+    .pub-legend p {
+      color: #cbd5e0;
+    }
+  }
+</style>
+
+<div class="pub-note">
+  See all articles on <a href="https://scholar.google.com/citations?user=XKDCtCoAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+</div>
+
+<div class="pub-container">
+
+<div class="pub-entry">
+  <div class="pub-title">Where LLM Agents Fail and How They can Learn From Failures</div>
+  <div class="pub-authors">
+    Kunlun Zhu<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
+    Zijia Liu<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
+    Bingxuan Li<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
+    <span class="me">Muxin Tian<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span></span>, 
+    Yingxuan Yang, Jiaxun Zhang, Pengrui Han, Qipeng Xie, Fuyang Cui, Weijia Zhang, Xiaoteng Ma, Xiaodong Yu, Gowtham Ramesh, Jialian Wu, Zicheng Liu, Pan Lu, James Zou, Jiaxuan You
+  </div>
+  <div class="pub-venue">
+    arXiv preprint, 2025
+    <span class="status submitted">Under Review</span>
+  </div>
+  <div class="pub-links">
+    <a href="/files/2509.25370v1.pdf" class="pub-link pdf" target="_blank">PDF</a>
+    <a href="https://arxiv.org/abs/2509.25370" class="pub-link arxiv" target="_blank">arXiv</a>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</div>
+  <div class="pub-authors">
+    Hannah Liu<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
+    <span class="me">Muxin Tian<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span><span class="symbol-tooltip" data-tooltip="Project Leader">†</span></span>, 
+    Iqra Ali, Haonan Gao, Qiaoyiwen Wu, Blair Yang, Uthayasanker Thayasivam, Annie Lee, Pakawat Nakwijit, Surangika Dayani Ranathunga, Ravi Shekhar
+  </div>
+  <div class="pub-venue">
+    <span class="status submitted">Under Review</span>
+  </div>
+</div>
+
+</div>
+
+<div class="pub-legend">
+  <p><strong>*</strong> denotes equal contribution</p>
+  <p><strong>†</strong> denotes project leader</p>
+</div>
 
 
 
