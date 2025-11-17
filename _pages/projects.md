@@ -165,7 +165,7 @@ author_profile: true
     text-decoration: none !important;
     border: 1.5px solid #e5e7eb;
     border-radius: 8px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 600;
     letter-spacing: 0.01em;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

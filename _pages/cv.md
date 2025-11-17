@@ -151,12 +151,12 @@ redirect_from:
   }
   
   .cv-meta {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.95);
     margin-top: 1.8em;
-    font-size: 0.9em;
+    font-size: 1em;
     letter-spacing: 0.02em;
-    font-weight: 500;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 </style>
 
@@ -167,7 +167,7 @@ redirect_from:
     <h2>Download My CV</h2>
     <p>Complete curriculum vitae with detailed information.</p>
     <a href="/files/cv.pdf" class="cv-download-btn" target="_blank">Download PDF</a>
-    <div class="cv-meta">Last updated: {{ page.last_modified_at | date: "%B %Y" }}</div>
+    <div class="cv-meta">Last updated: November 2025</div>
   </div>
 
 </div>
