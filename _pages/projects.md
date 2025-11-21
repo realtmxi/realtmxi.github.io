@@ -106,23 +106,24 @@ author_profile: true
   .github-stars {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    background-color: #f6f8fa;
-    border: 1px solid #d0d7de;
-    padding: 6px 12px;
-    border-radius: 8px;
-    font-size: 0.85em;
-    color: #24292f;
+    gap: 6px;
+    background-color: #f0f2f5;
+    border: 1px solid rgba(27, 31, 36, 0.08);
+    padding: 4px 10px 4px 8px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    color: #4a5568;
     font-weight: 600;
     line-height: 1.2;
     transition: all 0.25s ease;
   }
-  
+
   .github-stars:hover {
     background-color: #ffffff;
     border-color: #4a90e2;
-    transform: scale(1.05);
-    box-shadow: 0 2px 8px rgba(74,144,226,0.15);
+    color: #4a90e2;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(74,144,226,0.15);
   }
   
   .github-stars::before {
