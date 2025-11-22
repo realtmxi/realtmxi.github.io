@@ -301,7 +301,7 @@ author_profile: true
     </div>
     <div class="research-content">
       <div class="research-description">
-        Working on <span class="project-name"><a href="https://github.com/HarvardSys/Nimbus" target="_blank">Nimbus</a></span>, a hybrid LLM inference system that meets TTFT SLOs under bursty workloads by combining local GPU deployments with serverless APIs. Built full-stack inference gateway integrating vLLM/SGLang backends with multiple external providers.
+        Working on <span class="project-name"><a href="https://github.com/HarvardSys/hybridInference" target="_blank">Nimbus</a></span>, a hybrid LLM inference system that meets TTFT SLOs under bursty workloads by combining local GPU deployments with serverless APIs. Built full-stack inference gateway integrating vLLM/SGLang backends with multiple external providers.
       </div>
       <div class="advisor-info">
         <strong>Supervisor:</strong> Prof. <a href="https://junchengyang.com/">Juncheng Yang</a>
@@ -323,7 +323,7 @@ author_profile: true
     </div>
     <div class="research-content">
       <div class="research-description">
-        Co-leading <span class="project-name"><a href="https://github.com/OpenManus/OpenManus-RL" target="_blank">OpenManus-RL</a></span>, an agentic reinforcement learning framework for fine-tuning LLM agents on environments such as ALFWorld, WebShop, and GAIA. Co-developed <span class="project-name"><a href="https://arxiv.org/abs/2509.25370" target="_blank">AgentDebug</a></span>, a framework that analyzes LLM agent trajectories with a modular error taxonomy to localize root-cause failures.
+        Co-leading <span class="project-name"><a href="https://github.com/OpenManus/OpenManus-RL" target="_blank">OpenManus-RL</a></span>, an agentic reinforcement learning framework for fine-tuning LLM agents on environments such as ALFWorld, WebShop, and GAIA. Co-developed <span class="project-name"><a href="https://github.com/ulab-uiuc/AgentDebug" target="_blank">AgentDebug</a></span>, a framework that analyzes LLM agent trajectories with a modular error taxonomy to localize root-cause failures.
       </div>
       <div class="advisor-info">
         <strong>Supervisor:</strong> Prof. <a href="https://cs.stanford.edu/people/jiaxuan/">Jiaxuan You</a><br>
