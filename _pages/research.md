@@ -383,17 +383,17 @@ author_profile: true
   </div>
   <div class="research-body">
     <div class="research-header">
-      <div class="research-title">University of Toronto</div>
+      <div class="research-title">L³ Lab, University of Toronto</div>
       <div class="research-role">Research Intern</div>
       <div class="research-meta">May 2023 – May 2024</div>
       <div class="research-location">Toronto, ON</div>
     </div>
     <div class="research-content">
       <div class="research-description">
-        Led the creation of <span class="project-name">OasisSimp</span>, a multilingual text simplification dataset for English, Sinhala, Tamil, and Thai. Implemented and fine-tuned mT5 using the MUSS framework for unsupervised text simplification.
+        Led the creation of <span class="project-name"><a href="https://oasissimpdataset.github.io/" target="_blank" rel="noopener noreferrer">OasisSimp</a></span>, a multilingual text simplification dataset for English, Sinhala, Tamil, and Thai. Implemented and fine-tuned mT5 using the MUSS framework for unsupervised text simplification.
       </div>
       <div class="advisor-info">
-        <strong>Supervisors:</strong> Prof. <a href="https://shekharravi.github.io/">Ravi Shekhar</a> and Prof. <a href="https://www.cs.toronto.edu/~ealee/public/">Annie Lee</a>
+        <strong>Supervisors:</strong> Prof. <a href="https://shekharravi.github.io/">Ravi Shekhar</a> and Prof. <a href="https://www.cs.toronto.edu/~ealee/">Annie En-Shiun Lee</a> <a href="https://www.cs.toronto.edu/~ealee/"></a>
       </div>
     </div>
   </div>
