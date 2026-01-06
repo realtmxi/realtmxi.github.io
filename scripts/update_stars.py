@@ -12,12 +12,12 @@ REPOS = [
     {
         'owner': 'OpenManus',
         'repo': 'OpenManus-RL',
-        'pattern': r'(OpenManus-RL</div>\s*<div class="github-stars">)[\d.]+k?( stars</div>)'
+        'pattern': r'(<div class="project-title">OpenManus-RL</div>.*?<div class="github-stars">)[\d.]+k?(</div>)'
     },
     {
         'owner': 'chromium',
         'repo': 'chromium',  # ChromiumOS is part of Chromium
-        'pattern': r'(ChromiumOS-farfetchd</div>\s*<div class="github-stars">)[\d.]+k?( stars</div>)'
+        'pattern': r'(<div class="project-title">ChromiumOS - farfetchd</div>.*?<div class="github-stars">)[\d.]+k?(</div>)'
     }
 ]
 
@@ -68,7 +68,7 @@ def update_projects_file():
         pattern = repo_config['pattern']
         replacement = rf'\g<1>{formatted_stars}\g<2>'
         
-        new_content = re.sub(pattern, replacement, content)
+        new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
         
         if new_content != content:
             print(f"Updated {repo_config['owner']}/{repo_config['repo']}: {formatted_stars} stars")
