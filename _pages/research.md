@@ -341,7 +341,7 @@ author_profile: true
     <div class="research-header">
       <div class="research-title">Microsoft Research Asia</div>
       <div class="research-role">Research Intern</div>
-      <div class="research-meta">Jan 2025 – Present</div>
+      <div class="research-meta">Jan 2025 – Dec 2025</div>
       <div class="research-location">Beijing, China</div>
     </div>
     <div class="research-content">
