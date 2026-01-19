@@ -407,6 +407,24 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
+    <img src="/images/logos/03_Tencent_English-logo.avif" alt="Tencent" loading="lazy" decoding="async">
+  </div>
+  <div class="research-body">
+    <div class="research-header">
+      <div class="research-title">Tencent</div>
+      <div class="research-role">Senior Research Engineer</div>
+      <div class="research-meta">Jan 2026 – Present</div>
+      <div class="research-location">Beijing, China</div>
+    </div>
+    <div class="research-content">
+      <div class="research-description">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="research-entry">
+  <div class="research-logo">
     <img src="/images/logos/Chromium_Logo.svg" alt="Google" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
