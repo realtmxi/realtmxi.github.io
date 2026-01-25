@@ -294,7 +294,7 @@ author_profile: true
   </div>
   <div class="research-body">
     <div class="research-header">
-      <div class="research-title">Harvard Systems Lab, Harvard University</div>
+      <div class="research-title">Harvard MadSys Lab, Harvard University</div>
       <div class="research-role">Research Intern</div>
       <div class="research-meta">Jun 2025 – Present</div>
       <div class="research-location">Remote</div>
@@ -418,6 +418,7 @@ author_profile: true
     </div>
     <div class="research-content">
       <div class="research-description">
+      
       </div>
     </div>
   </div>
