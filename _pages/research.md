@@ -318,7 +318,7 @@ author_profile: true
     <div class="research-header">
       <div class="research-title">ULab, University of Illinois Urbana-Champaign</div>
       <div class="research-role">Research Intern</div>
-      <div class="research-meta">Feb 2025 – Present</div>
+      <div class="research-meta">Feb 2025 – Feb 2026</div>
       <div class="research-location">Remote</div>
     </div>
     <div class="research-content">

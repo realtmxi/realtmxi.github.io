@@ -324,7 +324,7 @@ author_profile: true
     <div class="project-header">
       <div class="project-title">OpenManus-RL</div>
       <div class="project-meta">
-        <div class="github-stars">3.8k</div>
+        <div class="github-stars">3.9k</div>
       </div>
     </div>
     <div class="project-description">
