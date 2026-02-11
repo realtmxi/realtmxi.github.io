@@ -136,28 +136,36 @@ author_profile: true
   }
   
   .pub-links {
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
+    display: inline;
+    font-size: 0.95em;
+    color: #718096;
+  }
+  
+  .pub-links .sep {
+    margin: 0 0.3em;
+    color: #a0aec0;
   }
   
   .pub-link {
-    display: inline-block;
-    padding: 8px 16px;
-    background: #f3f4f6;
-    color: #374151;
+    color: #4a90e2;
     text-decoration: none;
-    border-radius: 6px;
-    font-size: 0.9em;
-    font-weight: 600;
-    transition: all 0.2s ease;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .pub-link::before {
+    content: '[';
+    color: #a0aec0;
+  }
+  
+  .pub-link::after {
+    content: ']';
+    color: #a0aec0;
   }
   
   .pub-link:hover {
-    background: #4a90e2;
-    color: white;
-    text-decoration: none;
-    transform: translateY(-1px);
+    color: #2563eb;
+    text-decoration: underline;
   }
   
   /* Pure text links — no emoji or icon prefixes */
@@ -239,8 +247,7 @@ author_profile: true
     <span class="status submitted">Under Review</span>
   </div>
   <div class="pub-links">
-<a href="https://arxiv.org/abs/2602.09540" class="pub-link" target="_blank">paper</a>
-<a href="https://swebenchmobile.com" class="pub-link" target="_blank">project</a>
+    <a href="https://arxiv.org/abs/2602.09540" class="pub-link" target="_blank">paper</a><span class="sep">|</span><a href="https://swebenchmobile.com" class="pub-link" target="_blank">project</a>
   </div>
 </div>
 
@@ -258,8 +265,7 @@ author_profile: true
     <span class="status submitted">Under Review</span>
   </div>
   <div class="pub-links">
-    <a href="https://arxiv.org/abs/2509.25370" class="pub-link" target="_blank">paper</a>
-    <a href="https://github.com/ulab-uiuc/AgentDebug" class="pub-link" target="_blank">code</a>
+    <a href="https://arxiv.org/abs/2509.25370" class="pub-link" target="_blank">paper</a><span class="sep">|</span><a href="https://github.com/ulab-uiuc/AgentDebug" class="pub-link" target="_blank">code</a>
   </div>
 </div>
 
