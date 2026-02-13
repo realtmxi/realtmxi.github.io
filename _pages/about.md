@@ -30,3 +30,9 @@ My research focuses on building more capable intelligence through two complement
 (2) **Efficient and reliable machine learning systems** — building infrastructure for inference optimization, scheduling, and resource utilization to make large language model systems more accessible and sustainable. 
 
 Feel free to reach out to explore potential research opportunities.
+
+---
+
+## News
+
+- **Feb 2026** — Our paper on open-source Asian-English sentence simplification (OasisSimp) has been officially accepted at **LREC 2026**!
