@@ -405,6 +405,7 @@ author_profile: true
 
 <div class="research-container">
 
+<!--
 <div class="research-entry">
   <div class="research-logo">
     <img src="/images/logos/03_Tencent_English-logo.avif" alt="Tencent" loading="lazy" decoding="async">
@@ -423,6 +424,7 @@ author_profile: true
     </div>
   </div>
 </div>
+-->
 
 <div class="research-entry">
   <div class="research-logo">

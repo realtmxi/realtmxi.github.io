@@ -21,7 +21,7 @@ redirect_from:
   }
 </style>
 
-Hi, I'm Murphy Tian, an undergraduate researcher graduated from University of Toronto. I'm currently a research engineer at Tencent. I am fortunate to work with talented research advisors: Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning and Prof. [JunCheng Yang](https://junchengyang.com/) at Harvard MadSys Lab on LLM serving systems.  I have open-source experience as a core contributor of [OpenManus](https://github.com/FoundationAgents/OpenManus) and a Google Summer of Code contributor to ChromiumOS, along with industry engineering background from working at Microsoft Research, Microsoft and RedNote. I was previously advised by Dr. [Daniela Rosu](https://www.linkedin.com/in/daniela-rosu-704828/) on interpretable agentic systems.
+Hi, I'm Murphy Tian, an undergraduate researcher graduated from University of Toronto. I am fortunate to work with talented research advisors: Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning and Prof. [JunCheng Yang](https://junchengyang.com/) at Harvard MadSys Lab on LLM serving systems. I have open-source experience as a core contributor of [OpenManus](https://github.com/FoundationAgents/OpenManus) and a Google Summer of Code contributor to ChromiumOS, along with industry engineering background from working at Microsoft Research, Microsoft and RedNote. I was previously advised by Dr. [Daniela Rosu](https://www.linkedin.com/in/daniela-rosu-704828/) on interpretable agentic systems.
 
 **Email:** murphy[dot]tian[at]mail[dot]toronto[dot]ca
 
