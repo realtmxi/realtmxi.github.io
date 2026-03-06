@@ -35,5 +35,4 @@ Feel free to reach out to explore potential research opportunities.
 
 ## News
 
-- **Feb 2026** — Our paper on open-source Asian-English sentence simplification (OasisSimp) has been officially accepted at **LREC 2026**!
-- **Mar 2026** — OasisSimp has been selected for an **oral** presentation at **LREC 2026**.
+- **Mar 2026** — Our paper on open-source Asian-English sentence simplification (OasisSimp) has been accepted as an **oral** presentation at **LREC 2026**!
