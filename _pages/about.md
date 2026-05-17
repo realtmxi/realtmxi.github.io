@@ -38,4 +38,5 @@ Feel free to reach out to explore potential research opportunities.
 ## News
 
 - **May 2026** — Our paper **SWE-Bench Mobile** has been accepted to the **KDD 2026 ADS Track** as a Main Conference presentation!
+- **May 2026** — [FreeInference](https://freeinference.com/) service is alive! Try it out at [freeinference.com](https://freeinference.com/)!
 - **Mar 2026** — Our paper on open-source Asian-English sentence simplification (OasisSimp) has been accepted as an **oral** presentation at **LREC 2026**!
