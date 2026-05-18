@@ -14,9 +14,8 @@ main:
   - title: "Projects"
     url: /projects/
     
-  # - title: "CV"
-  #   url: /files/cv.pdf
-  #   target: "_blank"
+  - title: "CV"
+    url: /cv/
 
   # - title: "Talks"
   #   url: /talks/    
