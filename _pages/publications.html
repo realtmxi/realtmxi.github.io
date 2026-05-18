@@ -26,6 +26,21 @@ author_profile: true
     max-width: 900px;
     margin: 0 auto;
   }
+
+  .pub-section-title {
+    margin: 2.2em 0 1em 0;
+    color: #1a202c;
+    font-size: 1.35em;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .pub-section-note {
+    margin: -0.7em 0 1.4em 0;
+    color: #718096;
+    font-size: 0.92em;
+    line-height: 1.5;
+  }
   
   .pub-entry {
     margin-bottom: 2.5em;
@@ -188,6 +203,14 @@ author_profile: true
       background: #1a202c;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
+
+    .pub-section-title {
+      color: #f7fafc;
+    }
+
+    .pub-section-note {
+      color: #a0aec0;
+    }
     
     .pub-title {
       color: #f7fafc;
@@ -235,6 +258,9 @@ author_profile: true
 
 <div class="pub-container">
 
+<h2 class="pub-section-title">Publications</h2>
+<p class="pub-section-note">Peer-reviewed papers accepted to conference proceedings or archival venues.</p>
+
 <div class="pub-entry">
   <div class="pub-title">SWE-Bench Mobile: Can Large Language Model Agents Develop Industry-Level Mobile Applications?</div>
   <div class="pub-authors">
@@ -249,6 +275,22 @@ author_profile: true
 </div>
 
 <div class="pub-entry">
+  <div class="pub-title">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</div>
+  <div class="pub-authors">
+    Hannah Liu<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
+    <span class="me">Muxin Tian<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span><span class="symbol-tooltip" data-tooltip="Project Leader">†</span></span>, 
+    Iqra Ali, Haonan Gao, Qiaoyiwen Wu, Blair Yang, Uthayasanker Thayasivam, En-Shiun Annie Lee, Pakawat Nakwijit, Surangika Ranathunga, Ravi Shekhar
+  </div>
+  <div class="pub-venue">LREC, 2026 (Oral)</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2603.14111" class="pub-link" target="_blank">paper</a><span class="sep">|</span><a href="https://oasissimpdataset.github.io/" class="pub-link" target="_blank">project</a><span class="sep">|</span><a href="https://huggingface.co/datasets/ravishekhar/oasissimpdataset" class="pub-link" target="_blank">dataset</a>
+  </div>
+</div>
+
+<h2 class="pub-section-title">Preprints</h2>
+<p class="pub-section-note">Manuscripts available online before formal conference or journal acceptance.</p>
+
+<div class="pub-entry">
   <div class="pub-title">Where LLM Agents Fail and How They can Learn From Failures</div>
   <div class="pub-authors">
     Kunlun Zhu<span class="symbol-tooltip" data-tooltip="Equal Contribution. Each reserves the right to be listed first.">*</span><span class="symbol-tooltip" data-tooltip="Project Leader">†</span>, 
@@ -260,19 +302,6 @@ author_profile: true
   <div class="pub-venue">arXiv preprint, 2025 <span class="status submitted">Under Review</span></div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2509.25370" class="pub-link" target="_blank">paper</a><span class="sep">|</span><a href="https://github.com/ulab-uiuc/AgentDebug" class="pub-link" target="_blank">code</a>
-  </div>
-</div>
-
-<div class="pub-entry">
-  <div class="pub-title">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</div>
-  <div class="pub-authors">
-    Hannah Liu<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span>, 
-    <span class="me">Muxin Tian<span class="symbol-tooltip" data-tooltip="Equal Contribution">*</span><span class="symbol-tooltip" data-tooltip="Project Leader">†</span></span>, 
-    Iqra Ali, Haonan Gao, Qiaoyiwen Wu, Blair Yang, Uthayasanker Thayasivam, En-Shiun Annie Lee, Pakawat Nakwijit, Surangika Ranathunga, Ravi Shekhar
-  </div>
-  <div class="pub-venue">LREC, 2026 (Oral)</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2603.14111" class="pub-link" target="_blank">paper</a><span class="sep">|</span><a href="https://oasissimpdataset.github.io/" class="pub-link" target="_blank">project</a><span class="sep">|</span><a href="https://huggingface.co/datasets/ravishekhar/oasissimpdataset" class="pub-link" target="_blank">dataset</a>
   </div>
 </div>
 
