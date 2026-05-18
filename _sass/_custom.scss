@@ -1,0 +1,309 @@
+/* ==========================================================================
+   Site-specific polish
+   ========================================================================== */
+
+:root {
+  --site-accent: #2f6f93;
+  --site-accent-strong: #21536f;
+  --site-accent-soft: #eaf4f7;
+  --site-ink: #1f2933;
+  --site-muted: #5f6f7a;
+  --site-line: #e5edf2;
+  --site-panel: #ffffff;
+  --site-panel-soft: #f7fafc;
+  --site-shadow: 0 14px 34px rgba(31, 41, 51, 0.08);
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(247, 250, 252, 0.92) 0, rgba(255, 255, 255, 0) 280px),
+    var(--global-bg-color);
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom-color: rgba(229, 237, 242, 0.9);
+  box-shadow: 0 10px 30px rgba(31, 41, 51, 0.05);
+  backdrop-filter: blur(14px);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    border-radius: 6px;
+    color: var(--site-ink);
+    font-size: 0.96rem;
+  }
+
+  .visible-links a:before {
+    height: 2px;
+    background: var(--site-accent);
+  }
+
+  button {
+    border-radius: 6px;
+    background: var(--site-ink);
+    transition: background 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background: var(--site-accent-strong);
+    }
+  }
+
+  .hidden-links {
+    border-color: var(--site-line);
+    border-radius: 8px;
+    box-shadow: var(--site-shadow);
+  }
+}
+
+#main {
+  margin-top: 2.5em;
+}
+
+.page__title {
+  color: var(--site-ink);
+  letter-spacing: 0;
+}
+
+.page__content {
+  color: #2d3742;
+  line-height: 1.68;
+
+  h2 {
+    border-bottom-color: var(--site-line);
+  }
+
+  a {
+    color: var(--site-accent-strong);
+    font-weight: 600;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+  }
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 1.65rem;
+}
+
+.home-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.2rem;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid var(--site-line);
+  border-radius: 8px;
+  background: var(--site-panel);
+  box-shadow: 0 4px 14px rgba(31, 41, 51, 0.04);
+  color: var(--site-ink) !important;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:only-child {
+    flex: 0 0 auto;
+  }
+
+  &:hover {
+    border-color: rgba(47, 111, 147, 0.45);
+    box-shadow: 0 10px 22px rgba(31, 41, 51, 0.08);
+    transform: translateY(-1px);
+  }
+
+  &.primary {
+    border-color: var(--site-accent);
+    background: var(--site-accent);
+    color: #fff !important;
+  }
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.2rem 0 1.6rem;
+}
+
+.focus-item {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--site-line);
+  border-left: 3px solid var(--site-accent);
+  border-radius: 8px;
+  background: var(--site-panel);
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.045);
+
+  h3 {
+    margin: 0 0 0.45rem;
+    color: var(--site-ink);
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--site-muted);
+    font-size: 0.94rem;
+  }
+}
+
+.news-list {
+  display: grid;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--site-line);
+}
+
+.news-date {
+  width: fit-content;
+  padding: 0.18rem 0.62rem;
+  border-radius: 999px;
+  background: var(--site-accent-soft);
+  color: var(--site-accent-strong);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.news-text {
+  color: #2d3742;
+  line-height: 1.55;
+
+  strong {
+    color: var(--site-ink);
+  }
+}
+
+.author__avatar img {
+  border: 1px solid var(--site-line);
+  box-shadow: none;
+}
+
+.author__urls-wrapper {
+  button {
+    min-height: 2.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--site-line);
+    background: var(--site-panel);
+    color: var(--site-ink);
+    font-weight: 700;
+  }
+}
+
+.author__urls {
+  border-color: var(--site-line);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 924px) {
+  .author__urls {
+    box-shadow: var(--site-shadow);
+  }
+}
+
+body .page__content .pub-note,
+body .page__content .pub-entry,
+body .page__content .project-entry {
+  border-color: var(--site-line);
+  border-left-color: var(--site-accent);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(31, 41, 51, 0.06);
+}
+
+body .page__content .pub-entry:hover,
+body .page__content .project-entry:hover {
+  border-left-color: var(--site-accent-strong);
+  box-shadow: var(--site-shadow);
+  transform: translateY(-1px);
+}
+
+body .page__content .pub-title,
+body .page__content .project-title {
+  color: var(--site-ink);
+}
+
+body .page__content .project-btn.primary {
+  background: var(--site-accent);
+  box-shadow: 0 10px 24px rgba(47, 111, 147, 0.22);
+}
+
+@media screen and (max-width: 600px) {
+  #main {
+    margin-top: 1.7em;
+  }
+
+  .sidebar {
+    margin-top: 2.3em;
+  }
+
+  .home-actions {
+    gap: 0.5rem;
+  }
+
+  .home-action {
+    flex: 1 1 calc(50% - 0.5rem);
+    justify-content: center;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+  }
+
+  .author__urls-wrapper .author__urls {
+    position: static;
+    min-width: 10rem;
+    margin-top: 0.6rem;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .focus-grid,
+  .news-item {
+    grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    gap: 0.35rem;
+    padding: 0.9rem 0;
+  }
+
+  body .page__content .project-entry {
+    gap: 1.1em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --site-accent-soft: #193849;
+    --site-ink: #f7fafc;
+    --site-muted: #c9d4dd;
+    --site-line: #31424d;
+    --site-panel: #17212b;
+    --site-panel-soft: #111a22;
+    --site-shadow: 0 14px 34px rgba(0, 0, 0, 0.3);
+  }
+
+  .masthead {
+    background: rgba(17, 24, 32, 0.9);
+  }
+
+  .focus-item,
+  .home-action,
+  body .page__content .pub-entry,
+  body .page__content .project-entry {
+    background: var(--site-panel);
+  }
+}

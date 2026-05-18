@@ -14,10 +14,6 @@ main:
   - title: "Projects"
     url: /projects/
     
-  - title: "CV"
-    url: /files/research_resume.pdf
-    target: "_blank"
-
   # - title: "Talks"
   #   url: /talks/    
 
