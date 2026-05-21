@@ -213,30 +213,145 @@ body {
   }
 }
 
-body .page__content .pub-note,
-body .page__content .pub-entry,
-body .page__content .project-entry {
+body :where(.page__content, .archive) .pub-note,
+body :where(.page__content, .archive) .pub-entry,
+body :where(.page__content, .archive) .project-entry {
   border-color: var(--site-line);
   border-left-color: var(--site-accent);
   border-radius: 8px;
   box-shadow: 0 10px 30px rgba(31, 41, 51, 0.06);
 }
 
-body .page__content .pub-entry:hover,
-body .page__content .project-entry:hover {
+body :where(.page__content, .archive) .pub-entry:hover,
+body :where(.page__content, .archive) .project-entry:hover {
   border-left-color: var(--site-accent-strong);
   box-shadow: var(--site-shadow);
   transform: translateY(-1px);
 }
 
-body .page__content .pub-title,
-body .page__content .project-title {
+body :where(.page__content, .archive) .pub-title,
+body :where(.page__content, .archive) .project-title {
   color: var(--site-ink);
 }
 
-body .page__content .project-btn.primary {
+body :where(.page__content, .archive) .project-btn.primary {
   background: var(--site-accent);
   box-shadow: 0 10px 24px rgba(47, 111, 147, 0.22);
+}
+
+/* Keep the custom content pages on the same visual palette as the homepage. */
+body :where(.page__content, .archive) h2[style*="border-bottom"] {
+  border-bottom-color: var(--site-accent) !important;
+  color: var(--site-ink) !important;
+}
+
+body :where(.page__content, .archive) .research-entry,
+body :where(.page__content, .archive) .pub-entry,
+body :where(.page__content, .archive) .project-entry {
+  border-color: var(--site-line);
+  border-left-color: var(--site-accent);
+  background: var(--site-panel);
+  box-shadow: 0 10px 30px rgba(31, 41, 51, 0.055);
+}
+
+body :where(.page__content, .archive) .research-entry:hover,
+body :where(.page__content, .archive) .pub-entry:hover,
+body :where(.page__content, .archive) .project-entry:hover {
+  border-left-color: var(--site-accent-strong);
+  box-shadow: var(--site-shadow);
+  transform: translateY(-1px);
+}
+
+body :where(.page__content, .archive) .research-title,
+body :where(.page__content, .archive) .pub-section-title,
+body :where(.page__content, .archive) .pub-title,
+body :where(.page__content, .archive) .project-title,
+body :where(.page__content, .archive) .advisor-info strong {
+  color: var(--site-ink);
+}
+
+body :where(.page__content, .archive) .research-role,
+body :where(.page__content, .archive) .research-description,
+body :where(.page__content, .archive) .advisor-info,
+body :where(.page__content, .archive) .pub-authors,
+body :where(.page__content, .archive) .pub-legend p,
+body :where(.page__content, .archive) .project-description {
+  color: #40515f;
+}
+
+body :where(.page__content, .archive) .research-meta,
+body :where(.page__content, .archive) .research-location,
+body :where(.page__content, .archive) .pub-venue,
+body :where(.page__content, .archive) .pub-links,
+body :where(.page__content, .archive) .submission-status {
+  color: var(--site-muted);
+}
+
+body :where(.page__content, .archive) .advisor-info a,
+body :where(.page__content, .archive) .project-name,
+body :where(.page__content, .archive) .project-name a,
+body :where(.page__content, .archive) .pub-note a,
+body :where(.page__content, .archive) .pub-authors .me,
+body :where(.page__content, .archive) .symbol-tooltip,
+body :where(.page__content, .archive) .pub-link,
+body :where(.page__content, .archive) .project-description a {
+  color: var(--site-accent-strong);
+}
+
+body :where(.page__content, .archive) .advisor-info a:hover,
+body :where(.page__content, .archive) .project-name a:hover,
+body :where(.page__content, .archive) .pub-link:hover,
+body :where(.page__content, .archive) .project-description a:hover {
+  color: var(--site-accent);
+}
+
+body :where(.page__content, .archive) .project-name a:hover {
+  border-bottom-color: var(--site-accent);
+}
+
+body :where(.page__content, .archive) .pub-note {
+  border-left-color: var(--site-accent);
+  background: var(--site-accent-soft);
+  color: var(--site-ink);
+}
+
+body :where(.page__content, .archive) .research-logo,
+body :where(.page__content, .archive) .pub-legend {
+  background: var(--site-panel-soft);
+}
+
+body :where(.page__content, .archive) .pub-venue .status.submitted,
+body :where(.page__content, .archive) .project-role {
+  background: var(--site-accent-soft);
+  color: var(--site-accent-strong);
+  box-shadow: none;
+}
+
+body :where(.page__content, .archive) .project-role:hover {
+  box-shadow: 0 6px 16px rgba(47, 111, 147, 0.12);
+}
+
+body :where(.page__content, .archive) .github-stars:hover,
+body :where(.page__content, .archive) .project-btn:hover {
+  border-color: var(--site-accent);
+  color: var(--site-accent-strong);
+  box-shadow: 0 8px 16px rgba(47, 111, 147, 0.12), 0 2px 4px rgba(47, 111, 147, 0.08);
+}
+
+body :where(.page__content, .archive) .project-btn::after {
+  background: rgba(47, 111, 147, 0.1);
+}
+
+body :where(.page__content, .archive) .project-btn.primary,
+body :where(.page__content, .archive) .project-btn.primary:hover {
+  background: var(--site-accent);
+  color: #fff !important;
+  box-shadow: 0 10px 24px rgba(47, 111, 147, 0.22);
+}
+
+body :where(.page__content, .archive) ::selection {
+  background: rgba(47, 111, 147, 0.18);
+  color: var(--site-ink);
 }
 
 @media screen and (max-width: 600px) {
@@ -280,7 +395,7 @@ body .page__content .project-btn.primary {
     padding: 0.9rem 0;
   }
 
-  body .page__content .project-entry {
+  body :where(.page__content, .archive) .project-entry {
     gap: 1.1em;
   }
 }
@@ -302,8 +417,23 @@ body .page__content .project-btn.primary {
 
   .focus-item,
   .home-action,
-  body .page__content .pub-entry,
-  body .page__content .project-entry {
+  body :where(.page__content, .archive) .research-entry,
+  body :where(.page__content, .archive) .pub-entry,
+  body :where(.page__content, .archive) .project-entry {
     background: var(--site-panel);
+  }
+
+  body :where(.page__content, .archive) .research-role,
+  body :where(.page__content, .archive) .research-description,
+  body :where(.page__content, .archive) .advisor-info,
+  body :where(.page__content, .archive) .pub-authors,
+  body :where(.page__content, .archive) .pub-legend p,
+  body :where(.page__content, .archive) .project-description {
+    color: var(--site-muted);
+  }
+
+  body :where(.page__content, .archive) .research-logo,
+  body :where(.page__content, .archive) .pub-legend {
+    background: var(--site-panel-soft);
   }
 }
