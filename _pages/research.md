@@ -335,28 +335,6 @@ author_profile: true
 
 <div class="research-entry">
   <div class="research-logo">
-    <img src="/images/logos/msra.png" alt="Microsoft Research" loading="lazy" decoding="async">
-  </div>
-  <div class="research-body">
-    <div class="research-header">
-      <div class="research-title">Microsoft Research Asia</div>
-      <div class="research-role">Research Intern</div>
-      <div class="research-meta">Jan 2025 – Dec 2025</div>
-      <div class="research-location">Beijing, China</div>
-    </div>
-    <div class="research-content">
-      <div class="research-description">
-        Developed <span class="project-name">AutoForge</span>, a framework that formulates automatic agentic system generation and optimization as a searching problem using Monte Carlo Tree Search (MCTS) to explore agent architectures. The framework incorporates cost-aware optimization by intelligently assigning heterogeneous LLMs based on task-specific capabilities, maintaining strong performance while significantly reducing inference costs.
-      </div>
-      <div class="advisor-info">
-        <strong>Mentor:</strong> <a href="https://www.microsoft.com/en-us/research/people/zhogu/">Zhongxin Guo</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="research-entry">
-  <div class="research-logo">
     <img src="/images/logos/uoft.svg" alt="University of Toronto" loading="lazy" decoding="async">
   </div>
   <div class="research-body">
@@ -425,6 +403,28 @@ author_profile: true
   </div>
 </div>
 -->
+
+<div class="research-entry">
+  <div class="research-logo">
+    <img src="/images/logos/msra.png" alt="Microsoft Research" loading="lazy" decoding="async">
+  </div>
+  <div class="research-body">
+    <div class="research-header">
+      <div class="research-title">Microsoft Research Asia</div>
+      <div class="research-role">Research Intern</div>
+      <div class="research-meta">Jan 2025 – Dec 2025</div>
+      <div class="research-location">Beijing, China</div>
+    </div>
+    <div class="research-content">
+      <div class="research-description">
+        Developed <span class="project-name">AutoForge</span>, a framework that formulates automatic agentic system generation and optimization as a searching problem using Monte Carlo Tree Search (MCTS) to explore agent architectures. The framework incorporates cost-aware optimization by intelligently assigning heterogeneous LLMs based on task-specific capabilities, maintaining strong performance while significantly reducing inference costs.
+      </div>
+      <div class="advisor-info">
+        <strong>Mentor:</strong> <a href="https://www.microsoft.com/en-us/research/people/zhogu/">Zhongxin Guo</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="research-entry">
   <div class="research-logo">
