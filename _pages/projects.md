@@ -318,6 +318,27 @@ author_profile: true
 
 <div class="project-entry">
   <div class="project-image">
+    <img src="{{ site.baseurl }}/images/logos/freeinference-logo.svg" alt="FreeInference Logo" loading="eager" decoding="async">
+  </div>
+  <div class="project-content">
+    <div class="project-header">
+      <div class="project-title">FreeInference</div>
+      <div class="project-meta">
+        <div class="project-role">Harvard MadSys Lab</div>
+      </div>
+    </div>
+    <div class="project-description">
+      FreeInference provides an OpenAI- and Anthropic-compatible API powered by frontier open models, free for open-source, research, and education use. Built at Harvard SEAS MadSys Lab, it supports coding agents and AI development tools through a unified inference endpoint.
+    </div>
+    <div class="project-links">
+      <a href="https://freeinference.org/" class="project-btn primary" target="_blank">Visit Project</a>
+      <a href="https://doc.freeinference.org/" class="project-btn" target="_blank">Docs</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-entry">
+  <div class="project-image">
     <img src="{{ site.baseurl }}/images/logos/openmanus-logo.jpg" alt="OpenManus-RL Logo" loading="eager" decoding="async">
   </div>
   <div class="project-content">
