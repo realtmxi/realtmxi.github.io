@@ -36,10 +36,6 @@ Feel free to reach out to explore potential research opportunities.
 
 <div class="news-list">
   <div class="news-item">
-    <div class="news-date">Jun 2026</div>
-    <div class="news-text">I started my first full-time industry role as a Senior Researcher through Tencent's QingYun Program.</div>
-  </div>
-  <div class="news-item">
     <div class="news-date">May 2026</div>
     <div class="news-text">Our paper <strong>SWE-Bench Mobile</strong> has been accepted to the <strong>KDD 2026 ADS Track</strong> as a Main Conference presentation.</div>
   </div>

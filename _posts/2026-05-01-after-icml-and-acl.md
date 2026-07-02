@@ -1,6 +1,7 @@
 ---
 title: "After ICML and ACL: Notes to Myself"
 date: 2026-05-01
+published: false
 categories:
   - blog
 tags:
