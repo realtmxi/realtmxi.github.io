@@ -9,10 +9,6 @@ redirect_from:
 
 Hi, I'm Murphy Tian, an undergraduate researcher from the University of Toronto. I am fortunate to work with talented research advisors: Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning and Prof. [JunCheng Yang](https://junchengyang.com/) at Harvard MadSys Lab on LLM serving systems. I have open-source experience as a core contributor of [OpenManus](https://github.com/FoundationAgents/OpenManus) and a Google Summer of Code contributor to ChromiumOS, along with industry background from Microsoft Research Asia and Microsoft.
 
-<div class="home-actions">
-  <a class="home-action" href="/files/research_resume.pdf"><i class="fas fa-file-lines" aria-hidden="true"></i>CV</a>
-</div>
-
 My research focuses on building more capable and accessible intelligence through two complementary directions:
 
 <div class="focus-grid">
