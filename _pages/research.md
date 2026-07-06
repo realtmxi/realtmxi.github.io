@@ -301,10 +301,10 @@ author_profile: true
     </div>
     <div class="research-content">
       <div class="research-description">
-        Working on <span class="project-name"><a href="https://github.com/HarvardSys/hybridInference" target="_blank">Nimbus</a></span>, a hybrid LLM inference system that meets TTFT SLOs under bursty workloads by combining local GPU deployments with serverless APIs. Built full-stack inference gateway integrating vLLM/SGLang backends with multiple external providers.
+        End-to-end incubated <span class="project-name"><a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a></span>, an OpenAI- and Anthropic-compatible inference service for open-source, research, and education use. Proposed two LLM routing algorithms, <span class="project-name"><a href="https://github.com/HarvardSys/hybridInference" target="_blank">Nimbus</a></span> and <span class="project-name"><a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer">RouteWise</a></span>, for latency- and cost-aware routing across local GPU deployments, serverless APIs, and multi-provider endpoints.
       </div>
       <div class="advisor-info">
-        <strong>Supervisor:</strong> Prof. <a href="https://junchengyang.com/">Juncheng Yang</a>
+        <strong>Advisor:</strong> Prof. <a href="https://junchengyang.com/">Juncheng Yang</a>
       </div>
     </div>
   </div>
@@ -383,7 +383,6 @@ author_profile: true
 
 <div class="research-container">
 
-<!--
 <div class="research-entry">
   <div class="research-logo">
     <img src="/images/logos/03_Tencent_English-logo.avif" alt="Tencent" loading="lazy" decoding="async">
@@ -391,18 +390,12 @@ author_profile: true
   <div class="research-body">
     <div class="research-header">
       <div class="research-title">Tencent</div>
-      <div class="research-role">Senior Research Engineer</div>
-      <div class="research-meta">Jan 2026 – Present</div>
+      <div class="research-role">Senior Researcher</div>
+      <div class="research-meta">Jul 2026 – Present</div>
       <div class="research-location">Beijing, China</div>
-    </div>
-    <div class="research-content">
-      <div class="research-description">
-      
-      </div>
     </div>
   </div>
 </div>
--->
 
 <div class="research-entry">
   <div class="research-logo">
