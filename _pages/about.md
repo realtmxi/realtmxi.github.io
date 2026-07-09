@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi, I'm Murphy Tian, a MLSys researcher. I received my bachelor degree from University of Toronto, Computer Science Department.
-I am fortunate to work with talented research advisors: Prof. [JunCheng Yang](https://junchengyang.com/) at Harvard MadSys Lab on LLM serving systems and Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning. I am now a senior research scientist in Tencent.
+I am fortunate to work with talented research advisors: Prof. [JunCheng Yang](https://junchengyang.com/) at Harvard MadSys Lab on LLM serving systems and Prof. [Jiaxuan You](https://cs.stanford.edu/people/jiaxuan/) at U Lab on agentic reinforcement learning. I am now a senior research scientist in Tencent. I also spent a wonderful year as a research intern in Microsoft Research Asia.
 
 My research focuses on building more capable and accessible intelligence through two complementary directions:
 
