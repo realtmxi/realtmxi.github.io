@@ -326,7 +326,7 @@ hero_code: "BLD"
 
 <div class="project-container">
 
-<div class="project-entry project-entry--featured">
+<div class="project-entry">
   <div class="project-image">
     <img src="{{ site.baseurl }}/images/logos/freeinference-logo.svg" alt="FreeInference Logo" loading="eager" decoding="async">
   </div>
