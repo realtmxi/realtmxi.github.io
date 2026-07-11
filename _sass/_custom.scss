@@ -971,6 +971,14 @@ body :where(.page__content, .archive) ::selection {
     font-size: 0.92rem !important;
     text-align: right;
   }
+
+  .home-section__lead {
+    max-width: 44rem;
+    margin: 0.65rem 0 0;
+    color: var(--site-muted);
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
 }
 
 .home-page .focus-grid {
