@@ -3,6 +3,9 @@ title: "Projects"
 layout: archive
 permalink: /projects/
 author_profile: true
+page_class: "site-page projects-page"
+eyebrow: "Build / Open source"
+hero_code: "BLD"
 ---
 
 {% include base_path %}
@@ -314,9 +317,16 @@ author_profile: true
   }
 </style>
 
+<header class="inner-section-heading">
+  <div>
+    <p>Projects</p>
+    <h2>Selected Projects</h2>
+  </div>
+</header>
+
 <div class="project-container">
 
-<div class="project-entry">
+<div class="project-entry project-entry--featured">
   <div class="project-image">
     <img src="{{ site.baseurl }}/images/logos/freeinference-logo.svg" alt="FreeInference Logo" loading="eager" decoding="async">
   </div>

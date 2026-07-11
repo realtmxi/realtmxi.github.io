@@ -1,11 +1,60 @@
 ---
 layout: archive
 permalink: /blog/
-title: "Blog posts"
+title: "Blog"
 author_profile: true
+page_class: "site-page blog-page"
+eyebrow: "Notes"
+hero_code: "LOG"
 redirect_from:
   - /year-archive/
   - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
+
+<header class="inner-section-heading">
+  <div>
+    <p>Posts</p>
+    <h2>Latest</h2>
+  </div>
+</header>
+
+{% if site.posts.size > 0 %}
+  <div class="blog-grid">
+    {% for post in site.posts %}
+      <article class="blog-card" data-reveal>
+        <div class="blog-card__meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+          <span>{{ post.content | number_of_words | divided_by: 160 | plus: 1 }} min read</span>
+        </div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncatewords: 34 }}</p>
+        {% endif %}
+        {% if post.tags %}
+          <ul class="blog-card__tags" aria-label="Article tags">
+            {% for tag in post.tags limit: 3 %}
+              <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        <a class="blog-card__link" href="{{ post.url | relative_url }}">
+          Read article <span aria-hidden="true">↗</span>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <aside class="blog-empty" data-reveal>
+    <div class="blog-empty__signal" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div>
+      <h2>No published posts yet.</h2>
+      <p>New notes will appear here.</p>
+    </div>
+  </aside>
+{% endif %}

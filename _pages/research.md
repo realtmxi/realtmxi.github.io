@@ -3,6 +3,9 @@ layout: archive
 title: "Experience"
 permalink: /research/
 author_profile: true
+page_class: "site-page experience-page"
+eyebrow: "Career / Research"
+hero_code: "EXP"
 ---
 
 {% include base_path %}
@@ -284,7 +287,12 @@ author_profile: true
   })();
 </script>
 
-<h2 style="margin-bottom: 1.5em; color: #1a202c; font-size: 1.8em; font-weight: 700; border-bottom: 3px solid #4a90e2; padding-bottom: 0.5em;">Research Experience</h2>
+<header class="inner-section-heading">
+  <div>
+    <p>01 / Research</p>
+    <h2>Research Experience</h2>
+  </div>
+</header>
 
 <div class="research-container">
 
@@ -379,7 +387,12 @@ author_profile: true
 
 </div>
 
-<h2 style="margin-top: 3em; margin-bottom: 1.5em; color: #1a202c; font-size: 1.8em; font-weight: 700; border-bottom: 3px solid #4a90e2; padding-bottom: 0.5em;">Industry Experience</h2>
+<header class="inner-section-heading inner-section-heading--spaced">
+  <div>
+    <p>02 / Industry</p>
+    <h2>Industry Experience</h2>
+  </div>
+</header>
 
 <div class="research-container">
 
