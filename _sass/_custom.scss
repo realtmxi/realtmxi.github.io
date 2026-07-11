@@ -2265,7 +2265,7 @@ body :where(.page__content, .archive) ::selection {
 .archive.projects-page .project-entry {
   position: relative;
   display: grid;
-  grid-template-columns: 10rem minmax(0, 1fr);
+  grid-template-columns: 8.5rem minmax(0, 1fr);
   gap: 1.6rem;
   align-items: center;
   min-width: 0;
@@ -2316,17 +2316,16 @@ body :where(.page__content, .archive) ::selection {
 }
 
 .archive.projects-page .project-image {
-  width: 10rem;
-  height: 10rem;
+  width: 8.5rem;
+  height: 8.5rem;
   border: 1px solid var(--site-line);
   border-radius: 1rem;
-  background:
-    linear-gradient(145deg, rgba(var(--page-accent-rgb), 0.08), rgba(109, 92, 231, 0.06)),
-    var(--site-panel-soft);
+  /* Solid white so logos with baked-in white backgrounds blend seamlessly */
+  background: #ffffff;
   box-shadow: none;
 
   img {
-    padding: 1.8rem;
+    padding: 1.1rem;
     transition: transform 0.3s ease;
   }
 }
@@ -2336,10 +2335,14 @@ body :where(.page__content, .archive) ::selection {
 }
 
 .archive.projects-page .project-header {
-  display: grid;
-  gap: 0.7rem;
-  align-items: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
   margin-bottom: 0.8rem;
+  /* keep the meta pill clear of the card's corner number */
+  padding-right: 2.2rem;
 }
 
 .archive.projects-page .project-title {
@@ -2758,14 +2761,6 @@ body :where(.page__content, .archive) ::selection {
     background: #e8eef4;
   }
 
-  /* Project media panels stay dark, but each logo sits on a light chip so
-     dark marks and white-background bitmaps (OpenManus) read cleanly. */
-  .archive.projects-page .project-image img {
-    max-width: 7.6rem;
-    max-height: 7.6rem;
-    padding: 1.1rem;
-    border-radius: 1.1rem;
-    background: #e8eef4;
-    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
-  }
+  /* Project logo tiles are solid white in both themes (see .project-image),
+     so dark marks and white-background bitmaps read cleanly here too. */
 }
