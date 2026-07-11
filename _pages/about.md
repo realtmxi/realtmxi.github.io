@@ -16,7 +16,7 @@ redirect_from:
       MLSys researcher
     </p>
     <h1 id="home-hero-title">Muxin <span>(Murphy) Tian</span></h1>
-    <p class="home-hero__lead">Senior Research Scientist at Tencent, working on agentic reinforcement learning and efficient LLM inference.</p>
+    <p class="home-hero__lead">Working on agentic reinforcement learning and efficient LLM inference.</p>
     <div class="home-actions">
       <a class="home-action primary" href="{{ '/research/' | relative_url }}">
         Experience <span aria-hidden="true">↗</span>
@@ -41,10 +41,6 @@ redirect_from:
     <div class="system-node system-node--rl">
       <strong>RL</strong>
       <span>post-training</span>
-    </div>
-    <div class="system-node system-node--agent">
-      <strong>AGENT</strong>
-      <span>reasoning</span>
     </div>
     <div class="system-node system-node--serve">
       <strong>SERVE</strong>
