@@ -2741,3 +2741,34 @@ body :where(.page__content, .archive) ::selection {
     animation: none !important;
   }
 }
+
+/* ==========================================================================
+   Dark-mode legibility fixes
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  /* GitHub's brand color is near-black and disappears on the dark sidebar. */
+  .social-icons .fa-github,
+  .social-icons .fa-github-alt,
+  .social-icons .fa-github-square {
+    color: var(--site-ink);
+  }
+
+  /* Dark corporate marks (UofT crest, Tencent wordmark) are illegible on
+     dark tiles — keep the experience logo backplates light. */
+  .archive.experience-page .research-logo {
+    border-color: rgba(255, 255, 255, 0.08);
+    background: #e8eef4;
+  }
+
+  /* Project media panels stay dark, but each logo sits on a light chip so
+     dark marks and white-background bitmaps (OpenManus) read cleanly. */
+  .archive.projects-page .project-image img {
+    max-width: 7.6rem;
+    max-height: 7.6rem;
+    padding: 1.1rem;
+    border-radius: 1.1rem;
+    background: #e8eef4;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+  }
+}
