@@ -821,9 +821,16 @@ body :where(.page__content, .archive) ::selection {
   left: -1%;
 }
 
+.system-node--agent {
+  top: 22%;
+  right: -7%;
+  border-color: rgba(175, 159, 255, 0.24);
+  animation-delay: -1.5s;
+}
+
 .system-node--serve {
-  right: -4%;
-  bottom: 12%;
+  bottom: 4%;
+  left: 7%;
   border-color: rgba(73, 220, 198, 0.24);
   animation-delay: -3s;
 }
@@ -1399,7 +1406,7 @@ body :where(.page__content, .archive) ::selection {
     min-width: 15rem;
   }
 
-  .system-node--serve {
+  .system-node--agent {
     right: -2%;
   }
 }
@@ -1488,7 +1495,7 @@ body :where(.page__content, .archive) ::selection {
     padding: 0.5rem 0.58rem;
   }
 
-  .system-node--serve {
+  .system-node--agent {
     right: -1%;
   }
 
