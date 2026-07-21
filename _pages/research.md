@@ -309,7 +309,7 @@ hero_code: "EXP"
     </div>
     <div class="research-content">
       <div class="research-description">
-        End-to-end incubated <span class="project-name"><a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a></span>, an OpenAI- and Anthropic-compatible inference service for open-source, research, and education use. Proposed two LLM routing algorithms, <span class="project-name"><a href="https://github.com/HarvardSys/hybridInference" target="_blank">Nimbus</a></span> and <span class="project-name"><a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer">RouteWise</a></span>, for latency- and cost-aware routing across local GPU deployments, serverless APIs, and multi-provider endpoints.
+        End-to-end incubated <span class="project-name"><a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a></span>, an OpenAI- and Anthropic-compatible inference service for open-source, research, and education use. Proposed two LLM routing algorithms, <span class="project-name"><a href="https://github.com/realtmxi/nimbus" target="_blank" rel="noopener noreferrer">Nimbus</a></span> and <span class="project-name"><a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer">RouteWise</a></span>, for latency- and cost-aware routing across local GPU deployments, serverless APIs, and multi-provider endpoints.
       </div>
       <div class="advisor-info">
         <strong>Advisor:</strong> Prof. <a href="https://junchengyang.com/">Juncheng Yang</a>
