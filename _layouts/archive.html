@@ -18,30 +18,17 @@ layout: default
   <div class="archive{% if page.page_class %} {{ page.page_class }}{% endif %}">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       {% if page.page_class %}
-        <header class="inner-hero" aria-labelledby="inner-hero-title" data-reveal>
-          <div class="inner-hero__copy">
-            {% if page.eyebrow %}<p class="inner-hero__eyebrow">{{ page.eyebrow }}</p>{% endif %}
-            <h1 id="inner-hero-title">{{ page.title }}</h1>
-            {% if page.description %}<p class="inner-hero__description">{{ page.description }}</p>{% endif %}
-            {% if page.hero_meta %}
-              <ul class="inner-hero__meta" aria-label="Page topics">
-                {% for item in page.hero_meta %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </div>
-          <div class="inner-hero__visual" aria-hidden="true">
-            <span class="inner-hero__orbit inner-hero__orbit--outer"></span>
-            <span class="inner-hero__orbit inner-hero__orbit--inner"></span>
-            <span class="inner-hero__beam"></span>
-            <div class="inner-hero__code">
-              <strong>{{ page.hero_code | default: "MT" }}</strong>
-              <small>{{ page.eyebrow | default: site.title }}</small>
-            </div>
-            <span class="inner-hero__node inner-hero__node--one"></span>
-            <span class="inner-hero__node inner-hero__node--two"></span>
-          </div>
+        <header class="inner-hero" aria-labelledby="inner-hero-title">
+          {% if page.eyebrow %}<p class="inner-hero__eyebrow">{{ page.eyebrow }}</p>{% endif %}
+          <h1 id="inner-hero-title">{{ page.title }}</h1>
+          {% if page.description %}<p class="inner-hero__description">{{ page.description }}</p>{% endif %}
+          {% if page.hero_meta %}
+            <ul class="inner-hero__meta" aria-label="Page topics">
+              {% for item in page.hero_meta %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </header>
       {% else %}
         <h1 class="page__title">{{ page.title }}</h1>
