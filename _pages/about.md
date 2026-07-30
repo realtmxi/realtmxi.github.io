@@ -60,6 +60,13 @@ redirect_from:
 
   <div class="news-list">
     <article class="news-item">
+      <time class="news-date" datetime="2026-07">Jul 2026</time>
+      <div class="news-text">
+        <p>I started my first full-time industry role, joining <strong>Tencent</strong> as a <strong>Senior Research Scientist</strong> through the <strong>Qingyun Talent Program (青云计划)</strong>.</p>
+      </div>
+    </article>
+
+    <article class="news-item">
       <time class="news-date" datetime="2026-05">May 2026</time>
       <div class="news-text">
         <p>Our paper <strong>SWE-Bench Mobile</strong> has been accepted to the <strong>KDD 2026 ADS Track</strong> as a Main Conference presentation.</p>
