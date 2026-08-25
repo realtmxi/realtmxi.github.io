@@ -28,8 +28,8 @@ page_class: "site-page mentorship-page"
   </div>
 </header>
 
-I try to reserve one 30-minute slot each week for junior undergraduate students and graduate students who would like to chat about research, career paths, graduate school, open-source work, or getting started in AI/ML systems.
+I try to reserve one 30-minute slot each week for junior undergraduate students and graduate students who would like to chat about research, career paths, or graduate school.
 
-I benefited a lot from mentors and senior students who generously shared their time with me. I am especially grateful to Prof. [JunCheng Yang](https://junchengyang.com/), Prof. [Zhijian Liu](https://zhijianliu.com/), and [Wenhao Chai](https://wenhaochai.com/) for their guidance, conversations, and encouragement. I hope to pass a small part of that help forward.
+I have benefited greatly from advisors and senior students who generously shared their time, guidance, and encouragement with me. I hope to pass that support forward, especially to students from groups underrepresented in computer science.
 
 If you would like to meet, please email me with a short note about what you would like to discuss and a few time slots that work for you.
