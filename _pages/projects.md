@@ -355,7 +355,7 @@ hero_code: "BLD"
     <div class="project-header">
       <div class="project-title">OpenManus-RL</div>
       <div class="project-meta">
-        <div class="github-stars">4k</div>
+        <div class="github-stars">4.2k</div>
       </div>
     </div>
     <div class="project-description">
