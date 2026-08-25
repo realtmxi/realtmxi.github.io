@@ -13,6 +13,9 @@ main:
   
   - title: "Projects"
     url: /projects/
+
+  - title: "Mentorship"
+    url: /mentorship/
     
   # - title: "Talks"
   #   url: /talks/    

@@ -848,6 +848,51 @@ body :where(.page__content, .archive) ::selection {
   margin-top: clamp(3.5rem, 7vw, 5.5rem);
 }
 
+/* Mentorship roster */
+.archive.mentorship-page .mentorship-list {
+  max-width: 52rem;
+  margin: 0;
+  padding-left: 1.15rem;
+  border: 0;
+}
+
+.archive.mentorship-page .mentorship-person {
+  padding: 0;
+  border: 0;
+  color: var(--global-text-color);
+  font-size: 0.96rem;
+  line-height: 1.7;
+
+  &::marker {
+    color: var(--site-accent);
+  }
+
+  a {
+    color: var(--site-ink);
+    font-weight: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--site-accent-strong);
+      text-decoration: underline;
+      text-underline-offset: 0.18em;
+    }
+  }
+
+  span {
+    color: var(--site-muted);
+  }
+}
+
+.archive.mentorship-page .inner-section-heading--spaced {
+  margin-top: clamp(2.75rem, 5vw, 4rem);
+}
+
+.archive.mentorship-page > p {
+  max-width: 52rem;
+  line-height: 1.72;
+}
+
 /* Experience timeline */
 .archive.experience-page .research-container {
   position: relative;
