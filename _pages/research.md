@@ -461,7 +461,7 @@ hero_code: "EXP"
   <div class="research-body">
     <div class="research-header">
       <div class="research-title">University of Toronto, MIE Department</div>
-      <div class="research-role">Research Intern</div>
+      <div class="research-role">Research Assistant · Work Study + CSC495</div>
       <div class="research-meta">May 2024 – Aug 2025</div>
       <div class="research-location">Toronto, ON</div>
     </div>
@@ -483,7 +483,7 @@ hero_code: "EXP"
   <div class="research-body">
     <div class="research-header">
       <div class="research-title">L³ Lab, University of Toronto</div>
-      <div class="research-role">Research Intern</div>
+      <div class="research-role">Research Assistant · CSC494</div>
       <div class="research-meta">May 2023 – May 2024</div>
       <div class="research-location">Toronto, ON</div>
     </div>
