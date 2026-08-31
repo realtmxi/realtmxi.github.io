@@ -946,6 +946,44 @@ body :where(.page__content, .archive) ::selection {
   font-weight: 600;
 }
 
+.archive.experience-page .research-role--tagged {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.archive.experience-page .research-role-tags {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.22rem;
+}
+
+.archive.experience-page .research-role-tag {
+  padding: 0.08rem 0.4rem;
+  border: 1px solid var(--site-line);
+  border-radius: 999px;
+  background: var(--site-panel-soft);
+  color: var(--site-muted);
+  font-family: $monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--site-accent-strong);
+    color: var(--site-accent-strong);
+  }
+}
+
+.archive.experience-page .research-role-tag-separator {
+  color: var(--site-muted);
+  font-family: $monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+}
+
 .archive.experience-page .research-meta {
   gap: 0.42rem;
   margin-bottom: 0.2rem;

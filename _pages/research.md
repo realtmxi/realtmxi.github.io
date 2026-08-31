@@ -461,7 +461,14 @@ hero_code: "EXP"
   <div class="research-body">
     <div class="research-header">
       <div class="research-title">University of Toronto, MIE Department</div>
-      <div class="research-role">Research Assistant · Work Study + CSC495</div>
+      <div class="research-role research-role--tagged">
+        <span>Research Assistant</span>
+        <span class="research-role-tags">
+          <a class="research-role-tag" href="https://www.studentlife.utoronto.ca/work-study-program/" target="_blank" rel="noopener noreferrer">Work Study</a>
+          <span class="research-role-tag-separator">+</span>
+          <a class="research-role-tag" href="https://artsci.calendar.utoronto.ca/course/csc495h1" target="_blank" rel="noopener noreferrer">CSC495</a>
+        </span>
+      </div>
       <div class="research-meta">May 2024 – Aug 2025</div>
       <div class="research-location">Toronto, ON</div>
     </div>
@@ -483,7 +490,10 @@ hero_code: "EXP"
   <div class="research-body">
     <div class="research-header">
       <div class="research-title">L³ Lab, University of Toronto</div>
-      <div class="research-role">Research Assistant · CSC494</div>
+      <div class="research-role research-role--tagged">
+        <span>Research Assistant</span>
+        <a class="research-role-tag" href="https://artsci.calendar.utoronto.ca/course/csc494h1" target="_blank" rel="noopener noreferrer">CSC494</a>
+      </div>
       <div class="research-meta">May 2023 – May 2024</div>
       <div class="research-location">Toronto, ON</div>
     </div>
