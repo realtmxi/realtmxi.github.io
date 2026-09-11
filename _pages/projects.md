@@ -332,17 +332,17 @@ hero_code: "BLD"
   </div>
   <div class="project-content">
     <div class="project-header">
-      <div class="project-title">FreeInference</div>
+      <div class="project-title">HybridInference</div>
       <div class="project-meta">
         <div class="project-role">Harvard MadSys Lab</div>
       </div>
     </div>
     <div class="project-description">
-      FreeInference provides an OpenAI- and Anthropic-compatible API powered by frontier open models, free for open-source, research, and education use. Built at Harvard SEAS MadSys Lab, it supports coding agents and AI development tools through a unified inference endpoint.
+      An open-source LLM gateway unifying local GPUs and cloud APIs. Powers <a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a>, our free inference service for open-source, research, and education.
     </div>
     <div class="project-links">
-      <a href="https://freeinference.org/" class="project-btn primary" target="_blank">Visit Project</a>
-      <a href="https://doc.freeinference.org/" class="project-btn" target="_blank">Docs</a>
+      <a href="https://github.com/HarvardMadSys/hybridInference" class="project-btn primary" target="_blank" rel="noopener noreferrer">View GitHub</a>
+      <a href="https://freeinference.org/" class="project-btn" target="_blank" rel="noopener noreferrer">View Project</a>
     </div>
   </div>
 </div>
