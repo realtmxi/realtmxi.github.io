@@ -1356,11 +1356,6 @@ body :where(.page__content, .archive) ::selection {
   overflow-wrap: anywhere;
 }
 
-.archive.projects-page .project-repository__meta {
-  color: var(--site-muted);
-  font-size: 0.66rem;
-}
-
 .archive.projects-page .project-repository__links {
   display: flex;
   flex-wrap: wrap;

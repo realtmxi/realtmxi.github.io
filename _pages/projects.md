@@ -347,7 +347,6 @@ github_stars: true
         <div class="project-repository__content">
           <div class="project-repository__header">
             <h5 class="project-repository__title">hybridInference</h5>
-            <span class="project-repository__meta">Gateway</span>
             {% include github-stars.html repo="HarvardMadSys/hybridInference" %}
           </div>
           <p>A Hybrid LLM Inference Gateway for Local GPUs and Cloud APIs</p>
@@ -361,7 +360,6 @@ github_stars: true
         <div class="project-repository__content">
           <div class="project-repository__header">
             <h5 class="project-repository__title">RouteWise</h5>
-            <span class="project-repository__meta">EuroSys ’27</span>
             {% include github-stars.html repo="HarvardMadSys/RouteWise" %}
           </div>
           <p>RouteWise: Latency–Cost Optimization for Multi-Provider LLM Routing</p>
