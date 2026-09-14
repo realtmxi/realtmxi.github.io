@@ -6,6 +6,7 @@ author_profile: true
 page_class: "site-page projects-page"
 eyebrow: "Build / Open source"
 hero_code: "BLD"
+github_stars: true
 ---
 
 {% include base_path %}
@@ -332,18 +333,45 @@ hero_code: "BLD"
   </div>
   <div class="project-content">
     <div class="project-header">
-      <div class="project-title">HybridInference</div>
+      <h3 class="project-title">HybridInference</h3>
       <div class="project-meta">
         <div class="project-role">Harvard MadSys Lab</div>
       </div>
     </div>
     <div class="project-description">
-      An open-source LLM gateway unifying local GPUs and cloud APIs. Powers <a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a>, our free inference service for open-source, research, and education.
+      An open-source platform for self-hosted LLM serving. It helps small and medium-sized businesses and research labs deploy their own LLM proxy optimized to minimize cost and latency. The platform powers <a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a>, a free inference service for open-source, research, and education.
     </div>
-    <div class="project-links">
-      <a href="https://github.com/HarvardMadSys/hybridInference" class="project-btn primary" target="_blank" rel="noopener noreferrer">View GitHub</a>
-      <a href="https://freeinference.org/" class="project-btn" target="_blank" rel="noopener noreferrer">View Project</a>
-    </div>
+    <section class="project-repositories" aria-labelledby="hybrid-repositories-title">
+      <h4 class="project-repositories__label" id="hybrid-repositories-title">Repositories</h4>
+      <div class="project-repository">
+        <div class="project-repository__content">
+          <div class="project-repository__header">
+            <h5 class="project-repository__title">hybridInference</h5>
+            <span class="project-repository__meta">Gateway</span>
+            {% include github-stars.html repo="HarvardMadSys/hybridInference" %}
+          </div>
+          <p>A Hybrid LLM Inference Gateway for Local GPUs and Cloud APIs</p>
+        </div>
+        <div class="project-repository__links">
+          <a href="https://github.com/HarvardMadSys/hybridInference" target="_blank" rel="noopener noreferrer" aria-label="hybridInference on GitHub">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://doc.hybridinference.org/" target="_blank" rel="noopener noreferrer" aria-label="hybridInference documentation">Docs <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="project-repository">
+        <div class="project-repository__content">
+          <div class="project-repository__header">
+            <h5 class="project-repository__title">RouteWise</h5>
+            <span class="project-repository__meta">EuroSys ’27</span>
+            {% include github-stars.html repo="HarvardMadSys/RouteWise" %}
+          </div>
+          <p>RouteWise: Latency–Cost Optimization for Multi-Provider LLM Routing</p>
+        </div>
+        <div class="project-repository__links">
+          <a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer" aria-label="RouteWise on GitHub">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://harvardmadsys.github.io/RouteWise/" target="_blank" rel="noopener noreferrer" aria-label="RouteWise documentation">Docs <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 
@@ -353,9 +381,9 @@ hero_code: "BLD"
   </div>
   <div class="project-content">
     <div class="project-header">
-      <div class="project-title">OpenManus-RL</div>
+      <h3 class="project-title">OpenManus-RL</h3>
       <div class="project-meta">
-        <div class="github-stars">4.2k</div>
+        {% include github-stars.html repo="OpenManus/OpenManus-RL" %}
       </div>
     </div>
     <div class="project-description">
@@ -373,9 +401,9 @@ hero_code: "BLD"
   </div>
   <div class="project-content">
     <div class="project-header">
-      <div class="project-title">ChromiumOS - farfetchd</div>
+      <h3 class="project-title">ChromiumOS - farfetchd</h3>
       <div class="project-meta">
-        <div class="github-stars">22.2k</div>
+        {% include github-stars.html repo="chromium/chromium" %}
       </div>
     </div>
     <div class="project-description">
@@ -383,7 +411,7 @@ hero_code: "BLD"
     </div>
     <div class="project-links">
       <a href="https://summerofcode.withgoogle.com/programs/2025/projects/w9IS12mr" class="project-btn primary" target="_blank">View on GSoC</a>
-      <a href="https://github.com/chromium/chromium" class="project-btn" target="_blank">ChromiumOS Repo</a>
+      <a href="https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/farfetchd/" class="project-btn" target="_blank" rel="noopener noreferrer">View Source</a>
     </div>
   </div>
 </div>

@@ -1222,6 +1222,7 @@ body :where(.page__content, .archive) ::selection {
 
 .archive.projects-page .project-header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -1230,6 +1231,7 @@ body :where(.page__content, .archive) ::selection {
 }
 
 .archive.projects-page .project-title {
+  margin: 0;
   color: var(--site-ink);
   font-size: 1.1rem;
 }
@@ -1289,6 +1291,104 @@ body :where(.page__content, .archive) ::selection {
   background: var(--site-ink);
   box-shadow: none;
   color: var(--global-bg-color, #fff);
+}
+
+.archive.projects-page .github-stars[data-github-repo] {
+  gap: 0.3rem;
+  min-height: 1.5rem;
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+
+  &:hover {
+    background: transparent;
+    color: var(--site-accent-strong);
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.archive.projects-page .project-repositories {
+  margin-top: 1.3rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--site-line);
+}
+
+.archive.projects-page .project-repositories__label {
+  margin: 0 0 0.15rem;
+  color: var(--site-muted);
+  font-family: $monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.archive.projects-page .project-repository {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.4rem 1.2rem;
+  padding: 0.8rem 0;
+
+  & + .project-repository { border-top: 1px solid var(--site-line); }
+
+  p {
+    margin: 0.25rem 0 0;
+    color: var(--site-muted);
+    font-size: 0.75rem;
+    line-height: 1.7;
+  }
+}
+
+.archive.projects-page .project-repository__header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.7rem;
+}
+
+.archive.projects-page .project-repository__title {
+  margin: 0;
+  color: var(--site-ink);
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-transform: none;
+  overflow-wrap: anywhere;
+}
+
+.archive.projects-page .project-repository__meta {
+  color: var(--site-muted);
+  font-size: 0.66rem;
+}
+
+.archive.projects-page .project-repository__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    min-height: 1.75rem;
+    color: var(--site-accent-strong);
+    font-size: 0.7rem;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .archive.projects-page .project-repository {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.2rem;
+  }
+}
+
+@media (pointer: coarse) {
+  .archive.projects-page .github-stars[data-github-repo],
+  .archive.projects-page .project-repository__links a { min-height: 44px; }
 }
 
 /* Writing */

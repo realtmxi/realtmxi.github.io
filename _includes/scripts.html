@@ -1,4 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js?v={{ site.time | date: '%s' }}"></script>
 <script src="{{ '/assets/js/site-polish.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+{% if page.github_stars %}
+<script src="{{ '/assets/js/github-stars.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+{% endif %}
 
 {% include analytics.html %}
