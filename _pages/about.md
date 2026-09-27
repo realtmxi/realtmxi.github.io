@@ -76,7 +76,7 @@ redirect_from:
     <article class="news-item">
       <time class="news-date" datetime="2026-05">May 2026</time>
       <div class="news-text">
-        <p>Our paper <strong>SWE-Bench Mobile</strong> has been accepted to the <strong>KDD 2026 ADS Track</strong> as a Main Conference presentation.</p>
+        <p>Our paper <strong>SWE-Bench Mobile</strong> has been accepted to the <strong>KDD 2026 ADS Track</strong>.</p>
       </div>
     </article>
 
