@@ -1307,47 +1307,70 @@ body :where(.page__content, .archive) ::selection {
   }
 }
 
-.archive.projects-page .project-repositories {
-  margin-top: 1.3rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--site-line);
+/* HybridInference stack: one row per layer, labels aligned under the logo */
+.archive.projects-page .project-stack {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 1rem;
 }
 
-.archive.projects-page .project-repositories__label {
-  margin: 0 0 0.15rem;
+.archive.projects-page .project-layer {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: start;
+}
+
+.archive.projects-page .project-layer__label {
+  display: grid;
+  gap: 0.15rem;
+  margin: 0;
+  padding-top: 0.9rem;
   color: var(--site-muted);
   font-family: $monospace;
   font-size: 0.62rem;
   font-weight: 500;
   letter-spacing: 0.1em;
+  line-height: 1.5;
   text-transform: uppercase;
+
+  span { color: var(--site-accent-strong); }
 }
 
-.archive.projects-page .project-repository {
+.archive.projects-page .project-tiles {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 0.4rem 1.2rem;
-  padding: 0.8rem 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
 
-  & + .project-repository { border-top: 1px solid var(--site-line); }
+.archive.projects-page .project-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--site-line);
+  border-radius: 0.5rem;
 
   p {
-    margin: 0.25rem 0 0;
+    margin: 0;
     color: var(--site-muted);
     font-size: 0.75rem;
-    line-height: 1.7;
+    line-height: 1.6;
   }
 }
 
-.archive.projects-page .project-repository__header {
+.archive.projects-page .project-tile--soon { border-style: dashed; }
+
+.archive.projects-page .project-tile__header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.2rem 0.7rem;
 }
 
-.archive.projects-page .project-repository__title {
+.archive.projects-page .project-tile__title {
   margin: 0;
   color: var(--site-ink);
   font-size: 0.86rem;
@@ -1356,10 +1379,19 @@ body :where(.page__content, .archive) ::selection {
   overflow-wrap: anywhere;
 }
 
-.archive.projects-page .project-repository__links {
+.archive.projects-page .project-tile__status {
+  color: var(--site-muted);
+  font-family: $monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.archive.projects-page .project-tile__links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+  margin-top: auto;
 
   a {
     display: inline-flex;
@@ -1375,15 +1407,28 @@ body :where(.page__content, .archive) ::selection {
 }
 
 @media screen and (max-width: 900px) {
-  .archive.projects-page .project-repository {
+  .archive.projects-page .project-layer {
     grid-template-columns: minmax(0, 1fr);
-    gap: 0.2rem;
+    gap: 0.45rem;
   }
+
+  .archive.projects-page .project-layer__label {
+    display: flex;
+    gap: 0.6rem;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .archive.projects-page .project-tiles { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (pointer: coarse) {
   .archive.projects-page .github-stars[data-github-repo],
-  .archive.projects-page .project-repository__links a { min-height: 44px; }
+  .archive.projects-page .project-tile__links a { min-height: 44px; }
+
+  /* Keep the taller tap target from pushing the tile title down */
+  .archive.projects-page .project-tile__header .github-stars[data-github-repo] { margin-block: -0.625rem; }
 }
 
 /* Writing */

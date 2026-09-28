@@ -341,32 +341,66 @@ github_stars: true
     <div class="project-description">
       An open-source platform for self-hosted LLM serving. It helps small and medium-sized businesses and research labs deploy their own LLM proxy optimized to minimize cost and latency. The platform powers <a href="https://freeinference.org/" target="_blank" rel="noopener noreferrer">FreeInference</a>, a free inference service for open-source, research, and education.
     </div>
-    <section class="project-repositories" aria-labelledby="hybrid-repositories-title">
-      <h4 class="project-repositories__label" id="hybrid-repositories-title">Repositories</h4>
-      <div class="project-repository">
-        <div class="project-repository__content">
-          <div class="project-repository__header">
-            <h5 class="project-repository__title">hybridInference</h5>
+  </div>
+  <div class="project-stack">
+    <section class="project-layer" aria-labelledby="hybrid-layer-platform">
+      <h4 class="project-layer__label" id="hybrid-layer-platform"><span>01</span> Platform</h4>
+      <div class="project-tiles">
+        <div class="project-tile">
+          <div class="project-tile__header">
+            <h5 class="project-tile__title">hybridInference</h5>
             {% include github-stars.html repo="HarvardMadSys/hybridInference" %}
           </div>
           <p>A Hybrid LLM Inference Gateway for Local GPUs and Cloud APIs</p>
+          <div class="project-tile__links">
+            <a href="https://github.com/HarvardMadSys/hybridInference" target="_blank" rel="noopener noreferrer" aria-label="hybridInference on GitHub">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://doc.hybridinference.org/" target="_blank" rel="noopener noreferrer" aria-label="hybridInference documentation">Docs <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="project-repository__links">
-          <a href="https://github.com/HarvardMadSys/hybridInference" target="_blank" rel="noopener noreferrer" aria-label="hybridInference on GitHub">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="https://doc.hybridinference.org/" target="_blank" rel="noopener noreferrer" aria-label="hybridInference documentation">Docs <span aria-hidden="true">↗</span></a>
+        <div class="project-tile project-tile--soon">
+          <div class="project-tile__header">
+            <h5 class="project-tile__title">hybridInference-cloud-agent</h5>
+            <span class="project-tile__status">Coming soon</span>
+          </div>
         </div>
       </div>
-      <div class="project-repository">
-        <div class="project-repository__content">
-          <div class="project-repository__header">
-            <h5 class="project-repository__title">RouteWise</h5>
+    </section>
+    <section class="project-layer" aria-labelledby="hybrid-layer-algorithms">
+      <h4 class="project-layer__label" id="hybrid-layer-algorithms"><span>02</span> Algorithms</h4>
+      <div class="project-tiles">
+        <div class="project-tile">
+          <div class="project-tile__header">
+            <h5 class="project-tile__title">RouteWise</h5>
             {% include github-stars.html repo="HarvardMadSys/RouteWise" %}
           </div>
-          <p>RouteWise: Latency–Cost Optimization for Multi-Provider LLM Routing</p>
+          <p>Latency–Cost Optimization for Multi-Provider LLM Routing</p>
+          <div class="project-tile__links">
+            <a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer" aria-label="RouteWise on GitHub">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://harvardmadsys.github.io/RouteWise/" target="_blank" rel="noopener noreferrer" aria-label="RouteWise documentation">Docs <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="project-repository__links">
-          <a href="https://github.com/HarvardMadSys/RouteWise" target="_blank" rel="noopener noreferrer" aria-label="RouteWise on GitHub">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="https://harvardmadsys.github.io/RouteWise/" target="_blank" rel="noopener noreferrer" aria-label="RouteWise documentation">Docs <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <section class="project-layer" aria-labelledby="hybrid-layer-data">
+      <h4 class="project-layer__label" id="hybrid-layer-data"><span>03</span> Data</h4>
+      <div class="project-tiles">
+        <div class="project-tile">
+          <div class="project-tile__header">
+            <h5 class="project-tile__title">OpenInfra</h5>
+          </div>
+          <p>A public dashboard for some of the GPUs and serving engine behind FreeInference</p>
+          <div class="project-tile__links">
+            <a href="https://openinfra.freeinference.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenInfra live dashboard">Dashboard <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="project-tile">
+          <div class="project-tile__header">
+            <h5 class="project-tile__title">OpenData</h5>
+          </div>
+          <p>A dataset hub for LLM serving research</p>
+          <div class="project-tile__links">
+            <a href="https://data.freeinference.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenData dataset hub">Datasets <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </div>
     </section>
