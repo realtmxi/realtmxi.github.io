@@ -34,16 +34,16 @@ redirect_from:
   <div class="focus-grid">
     <article class="focus-item">
       <span class="focus-item__index">01</span>
-      <h3>Post-training and agentic systems</h3>
-      <p>Exploring reinforcement learning methods for agent capabilities and frameworks for automatic agentic system generation and optimization.</p>
-      <p class="focus-topics">Agentic RL · RSI · Evaluation</p>
+      <h3>Efficient systems for AI</h3>
+      <p>Building inference optimization, scheduling, and resource management infrastructure to reduce the cost of serving large language models.</p>
+      <p class="focus-topics">LLM Serving · ML systems</p>
     </article>
 
     <article class="focus-item">
       <span class="focus-item__index">02</span>
-      <h3>Efficient systems for AI</h3>
-      <p>Building inference optimization, scheduling, and resource management infrastructure to reduce the cost of serving large language models.</p>
-      <p class="focus-topics">LLM Serving · ML systems</p>
+      <h3>Post-training and agentic systems</h3>
+      <p>Exploring reinforcement learning methods for agent capabilities and frameworks for automatic agentic system generation and optimization.</p>
+      <p class="focus-topics">Agentic RL · RSI · Evaluation</p>
     </article>
   </div>
 </section>
