@@ -397,7 +397,7 @@ github_stars: true
           <div class="project-tile__header">
             <h5 class="project-tile__title">OpenData</h5>
           </div>
-          <p>FreeInference Agentic Trace is now available: metadata from 12,002 agent sessions, 1.19M LLM requests, and 1.21M tool calls across 16 weeks.</p>
+          <p>A dataset hub for LLM serving research</p>
           <div class="project-tile__links">
             <a href="https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace" target="_blank" rel="noopener noreferrer" aria-label="FreeInference Agentic Trace dataset on Hugging Face">Dataset <span aria-hidden="true">↗</span></a>
             <a href="https://github.com/HarvardMadSys/freeinference_agentic_trace" target="_blank" rel="noopener noreferrer" aria-label="FreeInference Agentic Trace code on GitHub">Code <span aria-hidden="true">↗</span></a>
