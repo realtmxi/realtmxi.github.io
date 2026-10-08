@@ -399,9 +399,8 @@ github_stars: true
           </div>
           <p>A dataset hub for LLM serving research</p>
           <div class="project-tile__links">
-            <a href="https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace" target="_blank" rel="noopener noreferrer" aria-label="FreeInference Agentic Trace dataset on Hugging Face">Dataset <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/HarvardMadSys/freeinference_agentic_trace" target="_blank" rel="noopener noreferrer" aria-label="FreeInference Agentic Trace code on GitHub">Code <span aria-hidden="true">↗</span></a>
             <a href="https://data.freeinference.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenData dataset hub">Data Hub <span aria-hidden="true">↗</span></a>
+            <a href="https://huggingface.co/datasets/harvardMadsys/freeinference_agentic_trace" target="_blank" rel="noopener noreferrer" aria-label="FreeInference Agentic Trace dataset on Hugging Face">Dataset <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </div>
