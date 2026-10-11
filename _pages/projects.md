@@ -357,10 +357,13 @@ github_stars: true
             <a href="https://doc.hybridinference.org/" target="_blank" rel="noopener noreferrer" aria-label="hybridInference documentation">Docs <span aria-hidden="true">↗</span></a>
           </div>
         </div>
-        <div class="project-tile project-tile--soon">
+        <div class="project-tile">
           <div class="project-tile__header">
             <h5 class="project-tile__title">hybridInference-cloud-agent</h5>
-            <span class="project-tile__status">Coming soon</span>
+            {% include github-stars.html repo="HarvardMadSys/hybridInference-cloud-agent" %}
+          </div>
+          <div class="project-tile__links">
+            <a href="https://github.com/HarvardMadSys/hybridInference-cloud-agent" target="_blank" rel="noopener noreferrer" aria-label="hybridInference-cloud-agent on GitHub">GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </div>
