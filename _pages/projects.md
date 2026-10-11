@@ -362,6 +362,7 @@ github_stars: true
             <h5 class="project-tile__title">hybridInference-cloud-agent</h5>
             {% include github-stars.html repo="HarvardMadSys/hybridInference-cloud-agent" %}
           </div>
+          <p>Cloud Agent Infrastructure in hybridInference</p>
           <div class="project-tile__links">
             <a href="https://github.com/HarvardMadSys/hybridInference-cloud-agent" target="_blank" rel="noopener noreferrer" aria-label="hybridInference-cloud-agent on GitHub">GitHub <span aria-hidden="true">↗</span></a>
           </div>
