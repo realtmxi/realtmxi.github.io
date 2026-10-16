@@ -509,6 +509,22 @@ body :where(.page__content, .archive) ::selection {
   }
 }
 
+.home-page .home-intro__body a {
+  color: color-mix(in srgb, var(--site-accent-strong) 50%, currentColor);
+  font-weight: inherit;
+  white-space: nowrap;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--site-accent-strong);
+    text-decoration-color: currentColor;
+  }
+}
+
 .home-section {
   margin-bottom: clamp(2.75rem, 5.5vw, 4.25rem);
 }
