@@ -17,7 +17,7 @@ redirect_from:
 <section class="home-intro">
   <div class="home-section-label">About</div>
   <div class="home-intro__body">
-    <p>Hi, I'm Murphy Tian, a MLSys researcher. I received my bachelor degree from University of Toronto, Computer Science Department. I am fortunate to work with Prof. <a href="https://junchengyang.com/">JunCheng Yang</a> at Harvard University MadSys Lab on LLM serving systems. Previously, I worked with Prof. <a href="https://cs.stanford.edu/people/jiaxuan/">Jiaxuan You</a> at U Lab on agentic reinforcement learning. I am now a senior research scientist in Tencent. I also spent a wonderful year as a research intern in Microsoft Research Asia.</p>
+    <p>Murphy is a MLSys researcher. He received his bachelor degree from University of Toronto, Computer Science Department. He is fortunate to work with Prof. <a href="https://junchengyang.com/">JunCheng Yang</a> at Harvard University MadSys Lab on LLM serving systems. Previously, he worked with Prof. <a href="https://cs.stanford.edu/people/jiaxuan/">Jiaxuan You</a> at UIUC U Lab on agentic reinforcement learning. He is now a senior research scientist in Tencent. He also spent a wonderful year as a research intern in Microsoft Research Asia.</p>
     <p>Feel free to reach out to explore potential research opportunities.</p>
   </div>
 </section>
@@ -27,7 +27,7 @@ redirect_from:
     <div>
       <p class="home-section-label">Research</p>
       <h2 id="research-focus-title">Focus areas</h2>
-      <p class="home-section__lead">My research focuses on building more capable and accessible intelligence through two complementary directions:</p>
+      <p class="home-section__lead">His research focuses on building more capable and accessible intelligence through two complementary directions:</p>
     </div>
   </header>
 
@@ -48,7 +48,7 @@ redirect_from:
   </div>
 </section>
 
-<p class="home-goal"><strong>My long-term goal</strong> is to make AI tokens as inexpensive and dependable as basic utilities, so that advanced AI capabilities can become accessible to the broader public.</p>
+<p class="home-goal"><strong>His long-term goal</strong> is to make AI tokens as inexpensive and dependable as basic utilities, so that advanced AI capabilities can become accessible to the broader public.</p>
 
 <section class="home-section home-news" aria-labelledby="news-title">
   <header class="home-section__heading">
@@ -69,7 +69,7 @@ redirect_from:
     <article class="news-item">
       <time class="news-date" datetime="2026-07">Jul 2026</time>
       <div class="news-text">
-        <p>I started my first full-time industry role, joining <strong>Tencent</strong> as a <strong>Senior Research Scientist</strong> through the <strong>Qingyun Talent Program (青云计划)</strong>.</p>
+        <p>Joined <strong>Tencent</strong> as a <strong>Senior Research Scientist</strong> through the <strong>Qingyun Talent Program (青云计划)</strong>.</p>
       </div>
     </article>
 
