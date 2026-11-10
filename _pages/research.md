@@ -307,6 +307,11 @@ hero_code: "EXP"
       <div class="research-meta">Jul 2026 – Present</div>
       <div class="research-location">Beijing, China</div>
     </div>
+    <div class="research-content">
+      <div class="research-description">
+        Designing efficient LLM systems for distributed training and inference.
+      </div>
+    </div>
   </div>
 </div>
 
